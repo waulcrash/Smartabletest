@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/diafon"
+    android:background="@drawable/style_window"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:gravity="center"
+        >
+        <TextView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/style_btndia"
+            android:id="@+id/btnclose"
+            android:text="X"
+            android:textStyle="bold"
+
+            android:gravity="center"
+            android:textColor="@color/white"
+
+            android:layout_gravity="end"
+            />
+
+
+        <LinearLayout
+            android:id="@+id/linestars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/star"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/starsendone" />
+            <TextView
+                android:id="@+id/record"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                />
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:id="@+id/progreename"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:gravity="center_horizontal"
+                    android:textSize="18dp"
+                    android:textStyle="bold"/>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnconti"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="10"
+            android:backgroundTint="@color/black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="@string/textconti"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+
+
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

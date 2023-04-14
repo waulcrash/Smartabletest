@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ButtonStart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/main_background2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="TODO"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backroundmenu" />
+
+
+    <ImageView
+        android:id="@+id/main_etap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="230dp"
+        android:layout_marginStart="10dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/etap" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginVertical="630dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_back"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+
+            android:textColorHint="@color/osnova"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/osnova"
+            app:strokeColor="@color/osnova" />
+        <Button
+            android:id="@+id/buttonstart"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/white"
+
+            android:textColorHint="@color/osnova"
+            android:textSize="18sp"
+            app:cornerRadius="20dp"
+            app:rippleColor="@color/osnova"
+            app:strokeColor="@color/osnova" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
