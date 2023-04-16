@@ -13,9 +13,8 @@ import android.widget.TextView;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class GameLevels extends AppCompatActivity {
-    Setting reshbtn= new Setting();
-    public int reshgamelevels;
-    private MediaPlayer btnsoung;
+    Setting reshbtn= new Setting();//распространение настроек
+    private MediaPlayer btnsoung;//звук нажатия кнопки
 
 
     @Override
@@ -26,14 +25,14 @@ public class GameLevels extends AppCompatActivity {
         w.getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION  | View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY);
         setContentView(R.layout.gamelevels);
 
-        Button btnback =(Button) findViewById(R.id.button_back);
-        btnsoung=MediaPlayer.create(this,R.raw.btnsoung);
+        Button btnback =(Button) findViewById(R.id.button_back);//кнопка назад
+        btnsoung=MediaPlayer.create(this,R.raw.btnsoung);//звук
 
-        ImageView stars2 = (ImageView) findViewById(R.id.stars2);
-
-
+        ImageView stars2 = (ImageView) findViewById(R.id.stars2);//звезды по уровнем
 
 
+
+        //условие для звезд по уровнем
         if (Variables.star2 == 1){
             stars2.setImageResource(R.drawable.starsendone);
         }else if (Variables.star2==2){

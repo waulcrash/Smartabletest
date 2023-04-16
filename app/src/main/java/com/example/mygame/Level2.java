@@ -500,7 +500,7 @@ public class Level2 extends AppCompatActivity {
         name.add("ХОРОШО");
         name.add("ОТЛИЧНО");
         name.add("ВЕЛИКОЛЕПНО");
-        name.add("САНЯ???");
+        name.add("Ты схитрил!Но это было круто");
 
 
 
@@ -1199,7 +1199,7 @@ public class Level2 extends AppCompatActivity {
 
 
 
-                String time = String.format("%d:%02d", minuts, second);
+                String time = String.format("%d:%02d", minuts, second);//время
 
 
 

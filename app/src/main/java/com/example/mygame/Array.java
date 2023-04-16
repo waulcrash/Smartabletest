@@ -2,7 +2,7 @@ package com.example.mygame;
 
 public class Array {
     //массив
-
+//ответы и задания
     final int [] stringbtn1 = {
             R.string.o1_1_1,R.string.o1_1_2,R.string.o1_1_3,R.string.o1_1_4,R.string.q1_1, //
             R.string.o1_2_1,R.string.o1_2_2,R.string.o1_2_3,R.string.o1_2_4,R.string.q1_2, //
