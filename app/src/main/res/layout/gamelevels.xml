@@ -126,10 +126,58 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars1"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars2"
+                            android:layout_width="5dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars3"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars4"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars5"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:id="@+id/line2"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+
                         android:orientation="horizontal">
 
                         <TextView
@@ -192,12 +240,59 @@
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars6"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars7"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars8"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars9"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars10"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/line3"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+
                         android:orientation="horizontal">
 
                         <TextView
@@ -260,12 +355,59 @@
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars11"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars12"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars13"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars14"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars15"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/line4"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+
                         android:orientation="horizontal">
 
                         <TextView
@@ -328,12 +470,59 @@
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars16"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars17"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars18"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars19"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars20"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/line5"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+
                         android:orientation="horizontal">
 
                         <TextView
@@ -396,12 +585,59 @@
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars21"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars22"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars23"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars24"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars25"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                    </LinearLayout>
 
                     <LinearLayout
                         android:id="@+id/line6"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        android:layout_marginTop="10dp"
+
                         android:orientation="horizontal">
 
                         <TextView
@@ -463,6 +699,53 @@
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <ImageView
+                            android:id="@+id/stars26"
+                            android:layout_width="1dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars27"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars28"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars29"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
+                        <ImageView
+                            android:id="@+id/stars30"
+                            android:layout_width="5dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:layout_marginRight="5dp"
+                            app:srcCompat="@drawable/nullstars" />
+
                     </LinearLayout>
 
 

@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -27,6 +28,19 @@ public class GameLevels extends AppCompatActivity {
 
         Button btnback =(Button) findViewById(R.id.button_back);
         btnsoung=MediaPlayer.create(this,R.raw.btnsoung);
+
+        ImageView stars2 = (ImageView) findViewById(R.id.stars2);
+
+
+
+
+        if (Variables.star2 == 1){
+            stars2.setImageResource(R.drawable.starsendone);
+        }else if (Variables.star2==2){
+            stars2.setImageResource(R.drawable.starsendtwo);
+        }else if (Variables.star2==3){
+            stars2.setImageResource(R.drawable.starsendfull);
+        }
 
 
         btnback.setOnClickListener(new View.OnClickListener() {

@@ -1188,38 +1188,28 @@ public class Level2 extends AppCompatActivity {
 
     private void runTimer(){
         final TextView txtprogress =(TextView)dialogEnd.findViewById(R.id.time);
-        final TextView txtrecord =(TextView)dialogEnd.findViewById(R.id.record);
+
         final Handler handler = new Handler();
         handler.post(new Runnable() {
             @Override
             public void run() {
                 int minuts =(sec%3600)/60 ;
                 int second = sec%60;
-                char minutsrec = Variables.record2.charAt(0);
-                int len = Variables.record2.length();
-                char secondrec1 = Variables.record2.charAt(len-2);
-                char secondrec2 = Variables.record2.charAt(len-1);
-                String txtsecondrec= secondrec1+""+secondrec2;
-                int itogsecrec= Integer.parseInt(txtsecondrec);
-                int minutint=Integer.parseInt(String.valueOf(minutsrec));
+
 
 
 
                 String time = String.format("%d:%02d", minuts, second);
 
 
-                if (minutint==0 && itogsecrec==0){
-                    Variables.record2=time;
-                }else if (minutint>minuts){
-                    Variables.record2=time;
-                }else if(minutint==minuts && itogsecrec>second){
-                    Variables.record2=time;
-                }
-                String timerec = String.format("%d:%02d", minutint, itogsecrec);
+
+
+
+
 
 
                 txtprogress.setText(time);
-                txtrecord.setText(timerec);
+
 
                 if(running){
                     sec++;
@@ -1237,6 +1227,7 @@ public class Level2 extends AppCompatActivity {
                         num=3;
                     }
                     stars=3;
+                    Variables.star2=3;
                 }else if ((minuts==0 && second>45) || (minuts==1 && second==0)){
                     if (minuts==0 && second<=50){
                         num=2;
@@ -1244,12 +1235,19 @@ public class Level2 extends AppCompatActivity {
                         num=1;
                     }
                     stars=2;
+                    if(Variables.star2!=3) {
+                        Variables.star2 = 2;
+                    }
                 }else if(minuts>=1 && second>=15){
                     num=0;
                     stars=1;
+                    if(Variables.star2!=2 && Variables.star2!=3) {
+                        Variables.star2 = 1;
+                    }
                 }
 
             }
+
 
         });
     }

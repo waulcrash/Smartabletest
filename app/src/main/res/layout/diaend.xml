@@ -44,16 +44,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 app:srcCompat="@drawable/starsendone" />
-            <TextView
-                android:id="@+id/record"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:text=""
-                android:textColor="@color/white"
-                android:gravity="center"
-                android:textSize="18dp"
-                android:textStyle="bold"
-                />
+
 
             <TextView
                 android:id="@+id/time"
