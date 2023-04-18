@@ -477,6 +477,9 @@ public class Level1 extends AppCompatActivity {
                     if (count==20){
                         //end
                        dialogEnd.show();
+                        if(Variables.progresslvl<=1) {
+                            Variables.progresslvl = 2;
+                        }
 
 
                     }else {
@@ -576,6 +579,9 @@ public class Level1 extends AppCompatActivity {
                     if (count==20){
                         //end
                         dialogEnd.show();
+                        if(Variables.progresslvl<=1) {
+                            Variables.progresslvl = 2;
+                        }
 
                     }else {
 
@@ -670,6 +676,9 @@ public class Level1 extends AppCompatActivity {
                     if (count==20){
                         //end
                         dialogEnd.show();
+                        if(Variables.progresslvl<=1) {
+                            Variables.progresslvl = 2;
+                        }
 
                     }else {
 
@@ -768,6 +777,9 @@ public class Level1 extends AppCompatActivity {
                     if (count==20){
                         //end
                         dialogEnd.show();
+                        if(Variables.progresslvl<=1) {
+                            Variables.progresslvl = 2;
+                        }
 
                     }else {
 

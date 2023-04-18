@@ -79,7 +79,7 @@
                     android:background="@drawable/btn_gamelevels"
                     android:gravity="center"
                     android:padding="10dp"
-                    android:text="6"
+                    android:text="20"
                     android:textColor="@color/white"
 
 
