@@ -284,5 +284,52 @@ public class Array {
             0,1,2,3,4  //заглушка для 2
     };
 
+    final int [] stringbtn7 = {
+            R.string.o7_1_1,R.string.o7_1_2,R.string.o7_1_3,R.string.o7_1_4,R.string.q7_1, //
+            R.string.o7_2_1,R.string.o7_2_2,R.string.o7_2_3,R.string.o7_2_4,R.string.q7_2, //
+            R.string.o7_3_1,R.string.o7_3_2,R.string.o7_3_3,R.string.o7_3_4,R.string.q7_3, //
+            R.string.o7_4_1,R.string.o7_4_2,R.string.o7_4_3,R.string.o7_4_4,R.string.q7_4, //
+            R.string.o7_5_1,R.string.o7_5_2,R.string.o7_5_3,R.string.o7_5_4,R.string.q7_5, //
+            R.string.o7_6_1,R.string.o7_6_2,R.string.o7_6_3,R.string.o7_6_4,R.string.q7_6, //
+            R.string.o7_7_1,R.string.o7_7_2,R.string.o7_7_3,R.string.o7_7_4,R.string.q7_7, //
+            R.string.o7_8_1,R.string.o7_8_2,R.string.o7_8_3,R.string.o7_8_4,R.string.q7_8, //
+            R.string.o7_9_1,R.string.o7_9_2,R.string.o7_9_3,R.string.o7_9_4,R.string.q7_9, //
+            R.string.o7_10_1,R.string.o7_10_2,R.string.o7_10_3,R.string.o7_10_4,R.string.q7_10, //
+            R.string.o7_11_1,R.string.o7_11_2,R.string.o7_11_3,R.string.o7_11_4,R.string.q7_11, //
+            R.string.o7_12_1,R.string.o7_12_2,R.string.o7_12_3,R.string.o7_12_4,R.string.q7_12, //
+            R.string.o7_13_1,R.string.o7_13_2,R.string.o7_13_3,R.string.o7_13_4,R.string.q7_13, //
+            R.string.o7_14_1,R.string.o7_14_2,R.string.o7_14_3,R.string.o7_14_4,R.string.q7_14, //
+            R.string.o7_15_1,R.string.o7_15_2,R.string.o7_15_3,R.string.o7_15_4,R.string.q7_15, //
+            R.string.o7_16_1,R.string.o7_16_2,R.string.o7_16_3,R.string.o7_16_4,R.string.q7_16, //
+            R.string.o7_17_1,R.string.o7_17_2,R.string.o7_17_3,R.string.o7_17_4,R.string.q7_17, //
+            R.string.o7_18_1,R.string.o7_18_2,R.string.o7_18_3,R.string.o7_18_4,R.string.q7_18, //
+            R.string.o7_19_1,R.string.o7_19_2,R.string.o7_19_3,R.string.o7_19_4,R.string.q7_19, //
+            R.string.o7_20_1,R.string.o7_20_2,R.string.o7_20_3,R.string.o7_20_4,R.string.q7_20,
+            R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,
+    };
+    final int [] power7 ={
+            0,1,2,3,1,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,0,
+            0,1,2,3,3,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,3,
+            0,1,2,3,2,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,3,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,3,
+            0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,4  //заглушка для 2
+    };
+
 
 }

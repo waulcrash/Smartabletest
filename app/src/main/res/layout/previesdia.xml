@@ -36,17 +36,24 @@
             android:layout_marginTop="10dp"
             android:layout_weight="1"
             android:src="@drawable/imgpreview2" />
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:id="@+id/descrtext"
             android:text="@string/levelone"
+            android:fontFamily="@font/jet"
             android:layout_weight="30"
             android:textColor="@color/white"
-            android:textSize="18sp"
+            android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:textStyle="bold"
             />
+        </ScrollView>
 
         <Button
             android:id="@+id/btnconti"
@@ -60,6 +67,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="@string/textconti"
+            android:fontFamily="@font/jet"
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="18sp"

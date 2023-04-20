@@ -23,6 +23,7 @@
         android:layout_weight="1"
         android:backgroundTint="@color/black"
         android:text="@string/start"
+        android:fontFamily="@font/jet"
         android:textColor="@color/white"
 
         android:textColorHint="@color/osnova"
@@ -44,6 +45,7 @@
         android:layout_weight="1"
         android:backgroundTint="@color/black"
         android:text="@string/setting"
+        android:fontFamily="@font/jet"
         android:textColor="@color/white"
 
         android:textColorHint="@color/osnova"

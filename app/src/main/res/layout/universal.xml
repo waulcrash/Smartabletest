@@ -65,6 +65,7 @@
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
                     android:text="@string/back"
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     app:cornerRadius="20dp"
@@ -80,6 +81,7 @@
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="20"
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
 
 
@@ -96,6 +98,7 @@
                     android:gravity="right"
                     android:padding="5dp"
                     android:text="@string/level"
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -322,6 +325,7 @@
                     android:gravity="center"
                     android:scaleType="centerCrop"
                     android:text=""
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textSize="24dp"
                     android:textStyle="bold" />
@@ -348,6 +352,7 @@
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="24dp"
+                    android:fontFamily="@font/jet"
                     android:textStyle="bold" />
 
                 <TextView
@@ -360,6 +365,7 @@
                     android:gravity="center"
                     android:scaleType="centerCrop"
                     android:text=""
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textSize="24dp"
                     android:textStyle="bold" />
@@ -384,6 +390,7 @@
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="24dp"
+                    android:fontFamily="@font/jet"
                     android:textStyle="bold" />
 
                 <TextView
@@ -394,6 +401,7 @@
                     android:layout_weight="1"
                     android:background="@drawable/btn_otvet"
                     android:gravity="center"
+                    android:fontFamily="@font/jet"
                     android:scaleType="centerCrop"
                     android:text=""
                     android:textColor="@color/white"

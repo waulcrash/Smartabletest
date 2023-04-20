@@ -23,7 +23,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-public class Level6 extends AppCompatActivity {
+public class Level7 extends AppCompatActivity {
 
 
     Dialog dialogEnd; //конечное окно
@@ -59,7 +59,7 @@ public class Level6 extends AppCompatActivity {
         setContentView(R.layout.universal);
 
         TextView text_levels = findViewById(R.id.text_levels);
-        text_levels.setText(R.string.level6); //текст уровня
+        text_levels.setText(R.string.level7); //текст уровня
 
 
 
@@ -96,11 +96,11 @@ public class Level6 extends AppCompatActivity {
 
 
         //анимация н
-        final Animation a = AnimationUtils.loadAnimation(Level6.this,R.anim.alpha);
-        final Animation b = AnimationUtils.loadAnimation(Level6.this,R.anim.alpha);
-        final Animation c = AnimationUtils.loadAnimation(Level6.this,R.anim.alpha);
-        final Animation d = AnimationUtils.loadAnimation(Level6.this,R.anim.alpha);
-        final Animation e = AnimationUtils.loadAnimation(Level6.this,R.anim.alpha);
+        final Animation a = AnimationUtils.loadAnimation(Level7.this,R.anim.alpha);
+        final Animation b = AnimationUtils.loadAnimation(Level7.this,R.anim.alpha);
+        final Animation c = AnimationUtils.loadAnimation(Level7.this,R.anim.alpha);
+        final Animation d = AnimationUtils.loadAnimation(Level7.this,R.anim.alpha);
+        final Animation e = AnimationUtils.loadAnimation(Level7.this,R.anim.alpha);
         //анимация к
 
         //работа с окном настроек н
@@ -236,7 +236,7 @@ public class Level6 extends AppCompatActivity {
                     else{
 
                     }
-                    Intent intent = new Intent(Level6.this,GameLevels.class);
+                    Intent intent = new Intent(Level7.this,GameLevels.class);
                     startActivity(intent);finish();
                 }catch (Exception e){
 
@@ -259,7 +259,7 @@ public class Level6 extends AppCompatActivity {
                     else{
 
                     }
-                    Intent intent = new Intent(Level6.this, Level7.class);
+                    Intent intent = new Intent(Level7.this, Level7.class);
                     startActivity(intent);finish();
                     running=false;
                     sec=0;
@@ -284,7 +284,7 @@ public class Level6 extends AppCompatActivity {
                     else{
 
                     }
-                    Intent intent = new Intent(Level6.this, GameLevels.class);
+                    Intent intent = new Intent(Level7.this, GameLevels.class);
                     startActivity(intent);finish();
                 }catch (Exception e){
 
@@ -305,11 +305,11 @@ public class Level6 extends AppCompatActivity {
 
 
         //первоначальные значения текста н
-            img_l.setText(array.stringbtn6[0]);
-            img_r.setText(array.stringbtn6[1]);
-            img_l2.setText(array.stringbtn6[2]);
-            img_r2.setText(array.stringbtn6[3]);
-            imgtext.setText(array.stringbtn6[4]);
+            img_l.setText(array.stringbtn7[0]);
+            img_r.setText(array.stringbtn7[1]);
+            img_l2.setText(array.stringbtn7[2]);
+            img_r2.setText(array.stringbtn7[3]);
+            imgtext.setText(array.stringbtn7[4]);
         //первоначальные значения текста к
 
 
@@ -317,11 +317,11 @@ public class Level6 extends AppCompatActivity {
 
 
         //первоначальные значения силы н
-            numleft = array.power6[0];
-            numright = array.power6[1];
-            numleft2 = array.power6[2];
-            numright2 = array.power6[3];
-            numquest = array.power6[4];
+            numleft = array.power7[0];
+            numright = array.power7[1];
+            numleft2 = array.power7[2];
+            numright2 = array.power7[3];
+            numquest = array.power7[4];
         o1=0;
         o2=1;
         o3=2;
@@ -350,11 +350,11 @@ public class Level6 extends AppCompatActivity {
                     imghp.setImageResource(R.drawable.heartfull);
                     count=0;
 
-                    img_l.setText(array.stringbtn6[0]);
-                    img_r.setText(array.stringbtn6[1]);
-                    img_l2.setText(array.stringbtn6[2]);
-                    img_r2.setText(array.stringbtn6[3]);
-                    imgtext.setText(array.stringbtn6[4]);
+                    img_l.setText(array.stringbtn7[0]);
+                    img_r.setText(array.stringbtn7[1]);
+                    img_l2.setText(array.stringbtn7[2]);
+                    img_r2.setText(array.stringbtn7[3]);
+                    imgtext.setText(array.stringbtn7[4]);
                     stay();
                     txttimer.setText("X");
                     x1=x1-1;
@@ -365,16 +365,16 @@ public class Level6 extends AppCompatActivity {
                 }else if (count>2 && count <20 &&x2==1){
                     if(hp!=1) {
                         count = count - 2;
-                        img_l.setText(array.stringbtn6[o1 - 10]);
-                        img_r.setText(array.stringbtn6[o2 - 10]);
-                        img_l2.setText(array.stringbtn6[o3 - 10]);
-                        img_r2.setText(array.stringbtn6[o4 - 10]);
-                        imgtext.setText(array.stringbtn6[o5 - 10]);
-                        numleft = array.power6[o1-10];
-                        numright = array.power6[o2-10];
-                        numleft2 = array.power6[o3-10];
-                        numright2 = array.power6[o4-10];
-                        numquest = array.power6[o5-10];
+                        img_l.setText(array.stringbtn7[o1 - 10]);
+                        img_r.setText(array.stringbtn7[o2 - 10]);
+                        img_l2.setText(array.stringbtn7[o3 - 10]);
+                        img_r2.setText(array.stringbtn7[o4 - 10]);
+                        imgtext.setText(array.stringbtn7[o5 - 10]);
+                        numleft = array.power7[o1-10];
+                        numright = array.power7[o2-10];
+                        numleft2 = array.power7[o3-10];
+                        numright2 = array.power7[o4-10];
+                        numquest = array.power7[o5-10];
                         o1=o1-10;
                         o2=o2-10;
                         o3=o3-10;
@@ -392,11 +392,11 @@ public class Level6 extends AppCompatActivity {
                             imghp.setImageResource(R.drawable.heartone);
                         }
                     } else{
-                        img_l.setText(array.stringbtn6[0]);
-                        img_r.setText(array.stringbtn6[1]);
-                        img_l2.setText(array.stringbtn6[2]);
-                        img_r2.setText(array.stringbtn6[3]);
-                        imgtext.setText(array.stringbtn6[4]);
+                        img_l.setText(array.stringbtn7[0]);
+                        img_r.setText(array.stringbtn7[1]);
+                        img_l2.setText(array.stringbtn7[2]);
+                        img_r2.setText(array.stringbtn7[3]);
+                        imgtext.setText(array.stringbtn7[4]);
                         stay();
                         hp=3;
                         count=0;
@@ -486,11 +486,11 @@ public class Level6 extends AppCompatActivity {
 
                             count=count+1;
 
-                            img_l.setText(array.stringbtn6[o1+5]);
-                            img_r.setText(array.stringbtn6[o2+5]);
-                            img_l2.setText(array.stringbtn6[o3+5]);
-                            img_r2.setText(array.stringbtn6[o4+5]);
-                            imgtext.setText(array.stringbtn6[o5+5]);
+                            img_l.setText(array.stringbtn7[o1+5]);
+                            img_r.setText(array.stringbtn7[o2+5]);
+                            img_l2.setText(array.stringbtn7[o3+5]);
+                            img_r2.setText(array.stringbtn7[o4+5]);
+                            imgtext.setText(array.stringbtn7[o5+5]);
                             next();
 
                         }
@@ -502,11 +502,11 @@ public class Level6 extends AppCompatActivity {
                                 imghp.setImageResource(R.drawable.heartfull);
                                 count=0;
 
-                                img_l.setText(array.stringbtn6[0]);
-                                img_r.setText(array.stringbtn6[1]);
-                                img_l2.setText(array.stringbtn6[2]);
-                                img_r2.setText(array.stringbtn6[3]);
-                                imgtext.setText(array.stringbtn6[4]);
+                                img_l.setText(array.stringbtn7[0]);
+                                img_r.setText(array.stringbtn7[1]);
+                                img_l2.setText(array.stringbtn7[2]);
+                                img_r2.setText(array.stringbtn7[3]);
+                                imgtext.setText(array.stringbtn7[4]);
                                 stay();
                                 my_timer.cancel();
                                 txttimer.setText("X");
@@ -517,11 +517,11 @@ public class Level6 extends AppCompatActivity {
 
                                 if(hp!=1) {
                                     count = count - 2;
-                                    img_l.setText(array.stringbtn6[o1 - 10]);
-                                    img_r.setText(array.stringbtn6[o2 - 10]);
-                                    img_l2.setText(array.stringbtn6[o3 - 10]);
-                                    img_r2.setText(array.stringbtn6[o4 - 10]);
-                                    imgtext.setText(array.stringbtn6[o5 - 10]);
+                                    img_l.setText(array.stringbtn7[o1 - 10]);
+                                    img_r.setText(array.stringbtn7[o2 - 10]);
+                                    img_l2.setText(array.stringbtn7[o3 - 10]);
+                                    img_r2.setText(array.stringbtn7[o4 - 10]);
+                                    imgtext.setText(array.stringbtn7[o5 - 10]);
                                     back();
                                     hp=hp-1;
                                     my_timer.cancel();
@@ -534,11 +534,11 @@ public class Level6 extends AppCompatActivity {
                                     }
                                 }
                                 else{
-                                    img_l.setText(array.stringbtn6[0]);
-                                    img_r.setText(array.stringbtn6[1]);
-                                    img_l2.setText(array.stringbtn6[2]);
-                                    img_r2.setText(array.stringbtn6[3]);
-                                    imgtext.setText(array.stringbtn6[4]);
+                                    img_l.setText(array.stringbtn7[0]);
+                                    img_r.setText(array.stringbtn7[1]);
+                                    img_l2.setText(array.stringbtn7[2]);
+                                    img_r2.setText(array.stringbtn7[3]);
+                                    imgtext.setText(array.stringbtn7[4]);
                                     stay();
                                     hp=3;
                                     count=0;
@@ -570,24 +570,24 @@ public class Level6 extends AppCompatActivity {
                         //end
                         running=false;
                        dialogEnd.show();
-                        if(Variables.progresslvl<=6) {
-                            Variables.progresslvl = 7;
+                        if(Variables.progresslvl<=7) {
+                            Variables.progresslvl = 8;
                         }
 
                        my_timer.cancel();
 
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star6=3;
+                            Variables.star7=3;
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star6!=3) {
-                                Variables.star6 = 2;
+                            if(Variables.star7!=3) {
+                                Variables.star7 = 2;
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star6!=2 && Variables.star6!=3) {
-                                Variables.star6 = 1;
+                            if(Variables.star7!=2 && Variables.star7!=3) {
+                                Variables.star7 = 1;
                             }
                         }
 
@@ -657,11 +657,11 @@ public class Level6 extends AppCompatActivity {
                     if (numright==numquest){
                         if (count<20){
                             count=count+1;
-                            img_l.setText(array.stringbtn6[o1+5]);
-                            img_r.setText(array.stringbtn6[o2+5]);
-                            img_l2.setText(array.stringbtn6[o3+5]);
-                            img_r2.setText(array.stringbtn6[o4+5]);
-                            imgtext.setText(array.stringbtn6[o5+5]);
+                            img_l.setText(array.stringbtn7[o1+5]);
+                            img_r.setText(array.stringbtn7[o2+5]);
+                            img_l2.setText(array.stringbtn7[o3+5]);
+                            img_r2.setText(array.stringbtn7[o4+5]);
+                            imgtext.setText(array.stringbtn7[o5+5]);
                             next();
 
                         }
@@ -673,11 +673,11 @@ public class Level6 extends AppCompatActivity {
                                 imghp.setImageResource(R.drawable.heartfull);
                                 count=0;
 
-                                img_l.setText(array.stringbtn6[0]);
-                                img_r.setText(array.stringbtn6[1]);
-                                img_l2.setText(array.stringbtn6[2]);
-                                img_r2.setText(array.stringbtn6[3]);
-                                imgtext.setText(array.stringbtn6[4]);
+                                img_l.setText(array.stringbtn7[0]);
+                                img_r.setText(array.stringbtn7[1]);
+                                img_l2.setText(array.stringbtn7[2]);
+                                img_r2.setText(array.stringbtn7[3]);
+                                imgtext.setText(array.stringbtn7[4]);
                                 stay();
                                 my_timer.cancel();
                                 txttimer.setText("X");
@@ -688,11 +688,11 @@ public class Level6 extends AppCompatActivity {
 
                                 if(hp!=1) {
                                     count = count - 2;
-                                    img_l.setText(array.stringbtn6[o1 - 10]);
-                                    img_r.setText(array.stringbtn6[o2 - 10]);
-                                    img_l2.setText(array.stringbtn6[o3 - 10]);
-                                    img_r2.setText(array.stringbtn6[o4 - 10]);
-                                    imgtext.setText(array.stringbtn6[o5 - 10]);
+                                    img_l.setText(array.stringbtn7[o1 - 10]);
+                                    img_r.setText(array.stringbtn7[o2 - 10]);
+                                    img_l2.setText(array.stringbtn7[o3 - 10]);
+                                    img_r2.setText(array.stringbtn7[o4 - 10]);
+                                    imgtext.setText(array.stringbtn7[o5 - 10]);
                                     back();
                                     hp=hp-1;
                                     my_timer.cancel();
@@ -705,11 +705,11 @@ public class Level6 extends AppCompatActivity {
                                     }
                                 }
                                 else{
-                                    img_l.setText(array.stringbtn6[0]);
-                                    img_r.setText(array.stringbtn6[1]);
-                                    img_l2.setText(array.stringbtn6[2]);
-                                    img_r2.setText(array.stringbtn6[3]);
-                                    imgtext.setText(array.stringbtn6[4]);
+                                    img_l.setText(array.stringbtn7[0]);
+                                    img_r.setText(array.stringbtn7[1]);
+                                    img_l2.setText(array.stringbtn7[2]);
+                                    img_r2.setText(array.stringbtn7[3]);
+                                    imgtext.setText(array.stringbtn7[4]);
                                     stay();
                                     hp=3;
                                     count=0;
@@ -739,22 +739,24 @@ public class Level6 extends AppCompatActivity {
                         //end
                         running=false;
                         dialogEnd.show();
-                        if(Variables.progresslvl<=6) {
-                            Variables.progresslvl = 7;
+                        if(Variables.progresslvl<=7) {
+                            Variables.progresslvl = 8;
                         }
+
                         my_timer.cancel();
+
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star6=3;
+                            Variables.star7=3;
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star6!=3) {
-                                Variables.star6 = 2;
+                            if(Variables.star7!=3) {
+                                Variables.star7 = 2;
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star6!=2 && Variables.star6!=3) {
-                                Variables.star6 = 1;
+                            if(Variables.star7!=2 && Variables.star7!=3) {
+                                Variables.star7 = 1;
                             }
                         }
                         nameprog.setText(name.get(num));
@@ -819,11 +821,11 @@ public class Level6 extends AppCompatActivity {
                     if (numleft2==numquest){
                         if (count<20){
                             count=count+1;
-                            img_l.setText(array.stringbtn6[o1+5]);
-                            img_r.setText(array.stringbtn6[o2+5]);
-                            img_l2.setText(array.stringbtn6[o3+5]);
-                            img_r2.setText(array.stringbtn6[o4+5]);
-                            imgtext.setText(array.stringbtn6[o5+5]);
+                            img_l.setText(array.stringbtn7[o1+5]);
+                            img_r.setText(array.stringbtn7[o2+5]);
+                            img_l2.setText(array.stringbtn7[o3+5]);
+                            img_r2.setText(array.stringbtn7[o4+5]);
+                            imgtext.setText(array.stringbtn7[o5+5]);
                             next();
                         }
                     }
@@ -833,11 +835,11 @@ public class Level6 extends AppCompatActivity {
                                 hp=3;
                                 imghp.setImageResource(R.drawable.heartfull);
                                 count=0;
-                                img_l.setText(array.stringbtn6[0]);
-                                img_r.setText(array.stringbtn6[1]);
-                                img_l2.setText(array.stringbtn6[2]);
-                                img_r2.setText(array.stringbtn6[3]);
-                                imgtext.setText(array.stringbtn6[4]);
+                                img_l.setText(array.stringbtn7[0]);
+                                img_r.setText(array.stringbtn7[1]);
+                                img_l2.setText(array.stringbtn7[2]);
+                                img_r2.setText(array.stringbtn7[3]);
+                                imgtext.setText(array.stringbtn7[4]);
                                 stay();
                                 my_timer.cancel();
                                 txttimer.setText("X");
@@ -847,11 +849,11 @@ public class Level6 extends AppCompatActivity {
                             }else{
                                 if(hp!=1) {
                                     count = count - 2;
-                                    img_l.setText(array.stringbtn6[o1 - 10]);
-                                    img_r.setText(array.stringbtn6[o2 - 10]);
-                                    img_l2.setText(array.stringbtn6[o3 - 10]);
-                                    img_r2.setText(array.stringbtn6[o4 - 10]);
-                                    imgtext.setText(array.stringbtn6[o5 - 10]);
+                                    img_l.setText(array.stringbtn7[o1 - 10]);
+                                    img_r.setText(array.stringbtn7[o2 - 10]);
+                                    img_l2.setText(array.stringbtn7[o3 - 10]);
+                                    img_r2.setText(array.stringbtn7[o4 - 10]);
+                                    imgtext.setText(array.stringbtn7[o5 - 10]);
                                     back();
                                     hp=hp-1;
                                     my_timer.cancel();
@@ -864,11 +866,11 @@ public class Level6 extends AppCompatActivity {
                                     }
                                 }
                                 else{
-                                    img_l.setText(array.stringbtn6[0]);
-                                    img_r.setText(array.stringbtn6[1]);
-                                    img_l2.setText(array.stringbtn6[2]);
-                                    img_r2.setText(array.stringbtn6[3]);
-                                    imgtext.setText(array.stringbtn6[4]);
+                                    img_l.setText(array.stringbtn7[0]);
+                                    img_r.setText(array.stringbtn7[1]);
+                                    img_l2.setText(array.stringbtn7[2]);
+                                    img_r2.setText(array.stringbtn7[3]);
+                                    imgtext.setText(array.stringbtn7[4]);
                                     stay();
                                     hp=3;
                                     count=0;
@@ -893,23 +895,24 @@ public class Level6 extends AppCompatActivity {
                         //end
                         running=false;
                         dialogEnd.show();
-                        if(Variables.progresslvl<=6) {
-                            Variables.progresslvl = 7;
+                        if(Variables.progresslvl<=7) {
+                            Variables.progresslvl = 8;
                         }
 
                         my_timer.cancel();
+
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star6=3;
+                            Variables.star7=3;
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star6!=3) {
-                                Variables.star6 = 2;
+                            if(Variables.star7!=3) {
+                                Variables.star7 = 2;
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star6!=2 && Variables.star6!=3) {
-                                Variables.star6 = 1;
+                            if(Variables.star7!=2 && Variables.star7!=3) {
+                                Variables.star7 = 1;
                             }
                         }
                         nameprog.setText(name.get(num));
@@ -966,11 +969,11 @@ public class Level6 extends AppCompatActivity {
                     if (numright2==numquest){
                         if (count<20){
                             count=count+1;
-                            img_l.setText(array.stringbtn6[o1+5]);
-                            img_r.setText(array.stringbtn6[o2+5]);
-                            img_l2.setText(array.stringbtn6[o3+5]);
-                            img_r2.setText(array.stringbtn6[o4+5]);
-                            imgtext.setText(array.stringbtn6[o5+5]);
+                            img_l.setText(array.stringbtn7[o1+5]);
+                            img_r.setText(array.stringbtn7[o2+5]);
+                            img_l2.setText(array.stringbtn7[o3+5]);
+                            img_r2.setText(array.stringbtn7[o4+5]);
+                            imgtext.setText(array.stringbtn7[o5+5]);
                             next();
                         }
                     }
@@ -980,11 +983,11 @@ public class Level6 extends AppCompatActivity {
                                 hp=3;
                                 imghp.setImageResource(R.drawable.heartfull);
                                 count=0;
-                                img_l.setText(array.stringbtn6[0]);
-                                img_r.setText(array.stringbtn6[1]);
-                                img_l2.setText(array.stringbtn6[2]);
-                                img_r2.setText(array.stringbtn6[3]);
-                                imgtext.setText(array.stringbtn6[4]);
+                                img_l.setText(array.stringbtn7[0]);
+                                img_r.setText(array.stringbtn7[1]);
+                                img_l2.setText(array.stringbtn7[2]);
+                                img_r2.setText(array.stringbtn7[3]);
+                                imgtext.setText(array.stringbtn7[4]);
                                 stay();
                                 my_timer.cancel();
                                 txttimer.setText("X");
@@ -993,11 +996,11 @@ public class Level6 extends AppCompatActivity {
                             }else{
                                 if(hp!=1) {
                                     count = count - 2;
-                                    img_l.setText(array.stringbtn6[o1 - 10]);
-                                    img_r.setText(array.stringbtn6[o2 - 10]);
-                                    img_l2.setText(array.stringbtn6[o3 - 10]);
-                                    img_r2.setText(array.stringbtn6[o4 - 10]);
-                                    imgtext.setText(array.stringbtn6[o5 - 10]);
+                                    img_l.setText(array.stringbtn7[o1 - 10]);
+                                    img_r.setText(array.stringbtn7[o2 - 10]);
+                                    img_l2.setText(array.stringbtn7[o3 - 10]);
+                                    img_r2.setText(array.stringbtn7[o4 - 10]);
+                                    imgtext.setText(array.stringbtn7[o5 - 10]);
                                     back();
                                     hp=hp-1;
                                     my_timer.cancel();
@@ -1010,11 +1013,11 @@ public class Level6 extends AppCompatActivity {
                                     }
                                 }
                                 else{
-                                    img_l.setText(array.stringbtn6[0]);
-                                    img_r.setText(array.stringbtn6[1]);
-                                    img_l2.setText(array.stringbtn6[2]);
-                                    img_r2.setText(array.stringbtn6[3]);
-                                    imgtext.setText(array.stringbtn6[4]);
+                                    img_l.setText(array.stringbtn7[0]);
+                                    img_r.setText(array.stringbtn7[1]);
+                                    img_l2.setText(array.stringbtn7[2]);
+                                    img_r2.setText(array.stringbtn7[3]);
+                                    imgtext.setText(array.stringbtn7[4]);
                                     stay();
                                     hp=3;
                                     count=0;
@@ -1040,25 +1043,24 @@ public class Level6 extends AppCompatActivity {
                     if (count==20){
                         //end
                         running=false;
-                        if(Variables.progresslvl<=6) {
-                            Variables.progresslvl = 7;
+                        if(Variables.progresslvl<=7) {
+                            Variables.progresslvl = 8;
                         }
 
-                        dialogEnd.show();
-
                         my_timer.cancel();
+
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star6=3;
+                            Variables.star7=3;
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star6!=3) {
-                                Variables.star6 = 2;
+                            if(Variables.star7!=3) {
+                                Variables.star7 = 2;
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star6!=2 && Variables.star6!=3) {
-                                Variables.star6 = 1;
+                            if(Variables.star7!=2 && Variables.star7!=3) {
+                                Variables.star7 = 1;
                             }
                         }
                         nameprog.setText(name.get(num));
@@ -1090,7 +1092,7 @@ public class Level6 extends AppCompatActivity {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
             backToast.cancel();
             super.onBackPressed();
-            Intent intent = new Intent(Level6.this, GameLevels.class);
+            Intent intent = new Intent(Level7.this, GameLevels.class);
             startActivity(intent);finish();
             return;
         } else {
@@ -1103,11 +1105,11 @@ public class Level6 extends AppCompatActivity {
 
     //метод перехода уровня вперед н
     public void next(){
-        numleft = array.power6[o1+5];
-        numright = array.power6[o2+5];
-        numleft2 = array.power6[o3+5];
-        numright2 = array.power6[o4+5];
-        numquest = array.power6[o5+5];
+        numleft = array.power7[o1+5];
+        numright = array.power7[o2+5];
+        numleft2 = array.power7[o3+5];
+        numright2 = array.power7[o4+5];
+        numquest = array.power7[o5+5];
         o1=o1+5;
         o2=o2+5;
         o3=o3+5;
@@ -1119,11 +1121,11 @@ public class Level6 extends AppCompatActivity {
     //метод сброс до 0 уровня нц
     public void stay(){
 
-        numleft = array.power6[0];
-        numright = array.power6[1];
-        numleft2 = array.power6[2];
-        numright2 = array.power6[3];
-        numquest = array.power6[4];
+        numleft = array.power7[0];
+        numright = array.power7[1];
+        numleft2 = array.power7[2];
+        numright2 = array.power7[3];
+        numquest = array.power7[4];
         o1=0;
         o2=1;
         o3=2;
@@ -1134,11 +1136,11 @@ public class Level6 extends AppCompatActivity {
 
     //метод возращения на 2 уровня нц
     public void back(){
-        numleft = array.power6[o1-10];
-        numright = array.power6[o2-10];
-        numleft2 = array.power6[o3-10];
-        numright2 = array.power6[o4-10];
-        numquest = array.power6[o5-10];
+        numleft = array.power7[o1-10];
+        numright = array.power7[o2-10];
+        numleft2 = array.power7[o3-10];
+        numright2 = array.power7[o4-10];
+        numquest = array.power7[o5-10];
         o1=o1-10;
         o2=o2-10;
         o3=o3-10;

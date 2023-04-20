@@ -50,6 +50,7 @@
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:backgroundTint="@color/black"
+                    android:layout_gravity="end"
 
 
                     android:text="@string/x"
@@ -73,6 +74,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:text="Настройки"
+                    android:fontFamily="@font/jet"
                     android:layout_marginTop="0dp"
                     android:textColor="@color/black"
                     android:textColorHint="@color/osnova"
@@ -121,6 +123,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/black"
                     android:text="@string/settingvkl"
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textColorHighlight="@color/osnova"
                     android:textColorHint="@color/osnova"
@@ -141,6 +144,7 @@
                     android:layout_weight="1"
                     android:backgroundTint="@color/black"
                     android:text="@string/settingvkl"
+                    android:fontFamily="@font/jet"
                     android:textColor="@color/white"
                     android:textColorHighlight="@color/osnova"
                     android:textColorHint="@color/osnova"

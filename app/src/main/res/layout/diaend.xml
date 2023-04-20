@@ -54,6 +54,7 @@
                 android:textColor="@color/white"
                 android:gravity="center"
                 android:textSize="18dp"
+                android:fontFamily="@font/jet"
                 android:textStyle="bold"
                 />
             <ScrollView
@@ -69,7 +70,8 @@
                     android:text=""
                     android:textColor="@color/black"
                     android:gravity="center_horizontal"
-                    android:textSize="18dp"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/jet"
                     android:textStyle="bold"/>
             </ScrollView>
         </LinearLayout>
@@ -85,6 +87,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:text="@string/textconti"
+            android:fontFamily="@font/jet"
             android:textAllCaps="true"
             android:textColor="@color/white"
             android:textSize="18sp"

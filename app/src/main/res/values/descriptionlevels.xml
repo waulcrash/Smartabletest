@@ -720,4 +720,124 @@
     <string name="o6_20_2">7</string>
     <string name="o6_20_3">2</string>
     <string name="o6_20_4">3</string>
+
+    <string name="q7_1">6-(2+3)</string>
+    <string name="o7_1_1">2</string>
+    <string name="o7_1_2">1</string>
+    <string name="o7_1_3">3</string>
+    <string name="o7_1_4">6</string>
+
+    <string name="q7_2">9x(3x2)</string>
+    <string name="o7_2_1">6</string>
+    <string name="o7_2_2">15</string>
+    <string name="o7_2_3">14</string>
+    <string name="o7_2_4">54</string>
+
+    <string name="q7_3">7+(2+3)</string>
+    <string name="o7_3_1">12</string>
+    <string name="o7_3_2">13</string>
+    <string name="o7_3_3">10</string>
+    <string name="o7_3_4">9</string>
+
+    <string name="q7_4">7x(12-11)</string>
+    <string name="o7_4_1">7</string>
+    <string name="o7_4_2">14</string>
+    <string name="o7_4_3">21</string>
+    <string name="o7_4_4">1</string>
+
+    <string name="q7_5">72:(12x6)</string>
+    <string name="o7_5_1">72</string>
+    <string name="o7_5_2">2</string>
+    <string name="o7_5_3">3</string>
+    <string name="o7_5_4">1</string>
+
+    <string name="q7_6">(3-2)x3</string>
+    <string name="o7_6_1">5</string>
+    <string name="o7_6_2">3</string>
+    <string name="o7_6_3">6</string>
+    <string name="o7_6_4">7</string>
+
+    <string name="q7_7">8:(2x2)</string>
+    <string name="o7_7_1">8</string>
+    <string name="o7_7_2">2</string>
+    <string name="o7_7_3">3</string>
+    <string name="o7_7_4">4</string>
+
+    <string name="q7_8">44-(13+2)</string>
+    <string name="o7_8_1">39</string>
+    <string name="o7_8_2">19</string>
+    <string name="o7_8_3">34</string>
+    <string name="o7_8_4">29</string>
+
+    <string name="q7_9">4x(3x1)</string>
+    <string name="o7_9_1">16</string>
+    <string name="o7_9_2">8</string>
+    <string name="o7_9_3">12</string>
+    <string name="o7_9_4">18</string>
+
+    <string name="q7_10">4+(4+20)</string>
+    <string name="o7_10_1">28</string>
+    <string name="o7_10_2">30</string>
+    <string name="o7_10_3">29</string>
+    <string name="o7_10_4">18</string>
+
+    <string name="q7_11">50-(3x3)</string>
+    <string name="o7_11_1">38</string>
+    <string name="o7_11_2">42</string>
+    <string name="o7_11_3">41</string>
+    <string name="o7_11_4">43</string>
+
+    <string name="q7_12">5x3-(3x0)</string>
+    <string name="o7_12_1">45</string>
+    <string name="o7_12_2">20</string>
+    <string name="o7_12_3">22</string>
+    <string name="o7_12_4">15</string>
+
+    <string name="q7_13">88-(11x8)</string>
+    <string name="o7_13_1">0</string>
+    <string name="o7_13_2">1</string>
+    <string name="o7_13_3">88</string>
+    <string name="o7_13_4">11</string>
+
+    <string name="q7_14">60:(2x2)</string>
+    <string name="o7_14_1">30</string>
+    <string name="o7_14_2">40</string>
+    <string name="o7_14_3">20</string>
+    <string name="o7_14_4">15</string>
+
+    <string name="q7_15">12-(2x2)</string>
+    <string name="o7_15_1">10</string>
+    <string name="o7_15_2">8</string>
+    <string name="o7_15_3">18</string>
+    <string name="o7_15_4">6</string>
+
+    <string name="q7_16">2x(8-2)</string>
+    <string name="o7_16_1">20</string>
+    <string name="o7_16_2">12</string>
+    <string name="o7_16_3">18</string>
+    <string name="o7_16_4">16</string>
+
+    <string name="q7_17">45:(20-5)</string>
+    <string name="o7_17_1">5</string>
+    <string name="o7_17_2">7</string>
+    <string name="o7_17_3">2</string>
+    <string name="o7_17_4">3</string>
+
+    <string name="q7_18">6+(2:1)</string>
+    <string name="o7_18_1">6</string>
+    <string name="o7_18_2">10</string>
+    <string name="o7_18_3">8</string>
+    <string name="o7_18_4">12</string>
+
+    <string name="q7_19">20-(12x0)</string>
+    <string name="o7_19_1">8</string>
+    <string name="o7_19_2">32</string>
+    <string name="o7_19_3">20</string>
+    <string name="o7_19_4">6</string>
+
+    <string name="q7_20">10:2x(6:3)</string>
+    <string name="o7_20_1">14</string>
+    <string name="o7_20_2">12</string>
+    <string name="o7_20_3">10</string>
+    <string name="o7_20_4">3</string>
 </resources>

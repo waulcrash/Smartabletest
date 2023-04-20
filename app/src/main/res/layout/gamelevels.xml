@@ -39,7 +39,7 @@
                     android:orientation="vertical">
 
                     <LinearLayout
-                        android:id="@+id/container3"
+                        android:id="@+id/containercount"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="horizontal">
@@ -49,6 +49,7 @@
                             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:fontFamily="@font/jet"
                             android:text="@string/back"
                             android:textColor="@color/white"
                             android:textColorHint="@color/osnova"
@@ -59,9 +60,36 @@
                     </LinearLayout>
 
                     <LinearLayout
+                        android:id="@+id/container3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/countstars"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:layout_marginLeft="120dp"
+                            android:background="@drawable/style_btn"
+                            android:fontFamily="@font/jet"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:text=""
+                            android:textColor="@color/white"
+                            android:textSize="14dp"
+                            android:textStyle="bold"
+
+
+                            >
+
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
                         android:id="@+id/line1"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
                         android:orientation="horizontal">
 
                         <TextView
@@ -72,6 +100,8 @@
                             android:background="@drawable/btn_gamelevels"
                             android:gravity="center"
                             android:text="1"
+
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -84,6 +114,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -96,6 +127,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -108,6 +140,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -120,6 +153,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -188,6 +222,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -200,6 +235,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -214,6 +250,7 @@
                             android:text="@string/x"
                             android:textColor="@color/white"
                             android:textSize="20sp"
+                            android:fontFamily="@font/jet"
                             android:textStyle="bold" />
 
                         <TextView
@@ -224,6 +261,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -236,6 +274,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -303,6 +342,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -315,6 +355,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -327,6 +368,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -339,6 +381,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -351,6 +394,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -418,6 +462,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -430,6 +475,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -442,6 +488,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -454,6 +501,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -466,6 +514,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -533,6 +582,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -545,6 +595,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -557,6 +608,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -569,6 +621,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -581,6 +634,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -648,6 +702,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -660,6 +715,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -672,6 +728,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -684,6 +741,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />
@@ -696,6 +754,7 @@
                             android:background="@drawable/style_btnclose"
                             android:gravity="center"
                             android:text="@string/x"
+                            android:fontFamily="@font/jet"
                             android:textColor="@color/white"
                             android:textSize="20sp"
                             android:textStyle="bold" />

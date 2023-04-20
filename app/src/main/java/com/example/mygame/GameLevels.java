@@ -60,49 +60,203 @@ public class GameLevels extends AppCompatActivity {
         //stars end
 
 
+
+
         //условие для звезд по уровнем
         if (Variables.star2 == 1){
+            if (Variables.count2==true){
+            Variables.countstar=Variables.countstar+1;
+            Variables.count2=false;
+            }
             stars2.setImageResource(R.drawable.starsendone);
         }else if (Variables.star2==2){
+            if (Variables.count2_2==true) {
+                Variables.countstar = Variables.countstar + 2;
+                if (Variables.count2==false){
+                    Variables.countstar=Variables.countstar-1;
+                }
+                Variables.count2_2=false;
+                Variables.count2=false;
+            }
             stars2.setImageResource(R.drawable.starsendtwo);
         }else if (Variables.star2==3){
+            if (Variables.count2_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count2==false && Variables.count2_2==true){
+                    Variables.countstar=Variables.countstar-1;
+                }else if(Variables.count2==true && Variables.count2_2==false || Variables.count2==false && Variables.count2_2==false){
+                    Variables.countstar=Variables.countstar-2;
+                }
+                Variables.count2_3=false;
+                Variables.count2_2=false;
+                Variables.count2=false;
+            }
             stars2.setImageResource(R.drawable.starsendfull);
         }
+
         if (Variables.star3 == 1){
+            if (Variables.count3==true){
+                Variables.countstar=Variables.countstar+1;
+                Variables.count3=false;
+            }
+
             stars3.setImageResource(R.drawable.starsendone);
-        }else if (Variables.star3==2){
+        }else if (Variables.star3==2) {
+            if (Variables.count3_2 == true) {
+                Variables.countstar = Variables.countstar + 2;
+            }
+            if (Variables.count3 == false) {
+                Variables.countstar = Variables.countstar - 1;
+            }
+            Variables.count3_2 = false;
+            Variables.count3 = false;
+
             stars3.setImageResource(R.drawable.starsendtwo);
+
+
         }else if (Variables.star3==3){
+            if (Variables.count3_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count3 == false && Variables.count3_2 == true) {
+                    Variables.countstar = Variables.countstar - 1;
+                } else if (Variables.count3 == true && Variables.count3_2 == false || Variables.count3 == false && Variables.count3_2 == false) {
+                    Variables.countstar = Variables.countstar - 2;
+                }
+                Variables.count3_3 = false;
+                Variables.count3_2 = false;
+                Variables.count3 = false;
+            }
             stars3.setImageResource(R.drawable.starsendfull);
+
         }
         if (Variables.star4 == 1){
+            if (Variables.count4==true){
+                Variables.countstar=Variables.countstar+1;
+                Variables.count4=false;
+            }
+
             stars4.setImageResource(R.drawable.starsendone);
         }else if (Variables.star4==2){
+            if (Variables.count4_2==true) {
+                Variables.countstar = Variables.countstar + 2;
+                if (Variables.count4==false){
+                    Variables.countstar=Variables.countstar-1;
+                }
+                Variables.count4_2=false;
+                Variables.count4=false;
+            }
             stars4.setImageResource(R.drawable.starsendtwo);
         }else if (Variables.star4==3){
+            if (Variables.count4_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count4==false && Variables.count4_2==true){
+                    Variables.countstar=Variables.countstar-1;
+                }else if(Variables.count4==true && Variables.count4_2==false || Variables.count4==false && Variables.count4_2==false){
+                    Variables.countstar=Variables.countstar-2;
+                }
+                Variables.count4_3=false;
+                Variables.count4_2=false;
+                Variables.count4=false;
+            }
             stars4.setImageResource(R.drawable.starsendfull);
         }
         if (Variables.star5 == 1){
+            if (Variables.count5==true){
+                Variables.countstar=Variables.countstar+1;
+                Variables.count5=false;
+            }
+
             stars5.setImageResource(R.drawable.starsendone);
         }else if (Variables.star5==2){
+            if (Variables.count5_2==true) {
+                Variables.countstar = Variables.countstar + 2;
+                if (Variables.count5==false){
+                    Variables.countstar=Variables.countstar-1;
+                }
+                Variables.count5_2=false;
+                Variables.count5=false;
+            }
             stars5.setImageResource(R.drawable.starsendtwo);
         }else if (Variables.star5==3){
+            if (Variables.count5_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count5==false && Variables.count5_2==true){
+                    Variables.countstar=Variables.countstar-1;
+                }else if(Variables.count5==true && Variables.count5_2==false || Variables.count5==false && Variables.count5_2==false){
+                    Variables.countstar=Variables.countstar-2;
+                }
+                Variables.count5_3=false;
+                Variables.count5_2=false;
+                Variables.count5=false;
+            }
             stars5.setImageResource(R.drawable.starsendfull);
         }
         if (Variables.star6 == 1){
+            if (Variables.count6==true){
+                Variables.countstar=Variables.countstar+1;
+                Variables.count6=false;
+            }
             stars6.setImageResource(R.drawable.starsendone);
         }else if (Variables.star6==2){
+            if (Variables.count6_2==true) {
+                Variables.countstar = Variables.countstar + 2;
+                if (Variables.count6==false){
+                    Variables.countstar=Variables.countstar-1;
+                }
+                Variables.count6_2=false;
+                Variables.count6=false;
+            }
             stars6.setImageResource(R.drawable.starsendtwo);
         }else if (Variables.star6==3){
+            if (Variables.count6_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count6==false && Variables.count6_2==true){
+                    Variables.countstar=Variables.countstar-1;
+                }else if(Variables.count6==true && Variables.count6_2==false || Variables.count6==false && Variables.count6_2==false){
+                    Variables.countstar=Variables.countstar-2;
+                }
+                Variables.count6_3=false;
+                Variables.count6_2=false;
+                Variables.count6=false;
+            }
             stars6.setImageResource(R.drawable.starsendfull);
         }
         if (Variables.star7 == 1){
+            if (Variables.count7==true){
+                Variables.countstar=Variables.countstar+1;
+                Variables.count7=false;
+            }
             stars7.setImageResource(R.drawable.starsendone);
         }else if (Variables.star7==2){
+            if (Variables.count7_2==true) {
+                Variables.countstar = Variables.countstar + 2;
+                if (Variables.count7==false){
+                    Variables.countstar=Variables.countstar-1;
+                }
+                Variables.count7_2=false;
+                Variables.count7=false;
+            }
             stars7.setImageResource(R.drawable.starsendtwo);
         }else if (Variables.star7==3){
+            if (Variables.count7_3==true) {
+                Variables.countstar = Variables.countstar + 3;
+                if (Variables.count7==false && Variables.count7_2==true){
+                    Variables.countstar=Variables.countstar-1;
+                }else if(Variables.count7==true && Variables.count7_2==false || Variables.count7==false && Variables.count7_2==false){
+                    Variables.countstar=Variables.countstar-2;
+                }
+                Variables.count7_3=false;
+                Variables.count7_2=false;
+                Variables.count7=false;
+            }
             stars7.setImageResource(R.drawable.starsendfull);
         }
+
+
+        TextView countstr = (TextView) findViewById(R.id.countstars);
+        String txtcount = Integer.toString(Variables.countstar);
+
+        countstr.setText(txtcount);
 
 
 
@@ -250,6 +404,29 @@ public class GameLevels extends AppCompatActivity {
 
                         }
                         Intent intent = new Intent(GameLevels.this, Level6.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (Variables.progresslvl>=7) {
+
+            TextView textView7 = (TextView) findViewById(R.id.textView7);
+            textView7.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView7.setText("7");
+            textView7.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level7.class);
                         startActivity(intent);
                         finish();
                     } catch (Exception e) {
