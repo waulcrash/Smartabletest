@@ -3,6 +3,7 @@ package com.example.mygame;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
@@ -77,6 +78,29 @@ public class Setting extends AppCompatActivity {
                     Intent intent = new Intent(Setting.this, MainActivity.class);
                     startActivity(intent);finish();
                 }catch (Exception e){
+
+                }
+            }
+        });
+
+        Button restart =(Button) findViewById(R.id.restart);
+        restart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    if (resh == true) {
+                        soundPlay(btnsoung);
+                    } else {
+
+                    }
+
+                    SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+                    final int level = save.getInt("level", 1);
+                        SharedPreferences.Editor editor = save.edit();
+                        editor.putInt("level",1);
+                        editor.commit();
+
+                } catch (Exception e) {
 
                 }
             }

@@ -67,10 +67,10 @@
 
                         <TextView
                             android:id="@+id/countstars"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
-                            android:layout_marginLeft="120dp"
-                            android:background="@drawable/style_btn"
+                            android:layout_width="100dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="200dp"
+                            android:background="@drawable/countstar2"
                             android:fontFamily="@font/jet"
                             android:gravity="center"
                             android:padding="5dp"

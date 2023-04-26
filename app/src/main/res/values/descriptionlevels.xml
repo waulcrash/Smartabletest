@@ -840,4 +840,364 @@
     <string name="o7_20_2">12</string>
     <string name="o7_20_3">10</string>
     <string name="o7_20_4">3</string>
+
+    <string name="q8_1">5-(2x2)</string>
+    <string name="o8_1_1">2</string>
+    <string name="o8_1_2">1</string>
+    <string name="o8_1_3">3</string>
+    <string name="o8_1_4">6</string>
+
+    <string name="q8_2">12+(2+6)</string>
+    <string name="o8_2_1">6</string>
+    <string name="o8_2_2">15</string>
+    <string name="o8_2_3">20</string>
+    <string name="o8_2_4">24</string>
+
+    <string name="q8_3">20-(2x2)</string>
+    <string name="o8_3_1">16</string>
+    <string name="o8_3_2">13</string>
+    <string name="o8_3_3">10</string>
+    <string name="o8_3_4">24</string>
+
+    <string name="q8_4">7x(2-2)</string>
+    <string name="o8_4_1">7</string>
+    <string name="o8_4_2">11</string>
+    <string name="o8_4_3">0</string>
+    <string name="o8_4_4">1</string>
+
+    <string name="q8_5">31-(2x3)</string>
+    <string name="o8_5_1">37</string>
+    <string name="o8_5_2">27</string>
+    <string name="o8_5_3">24</string>
+    <string name="o8_5_4">25</string>
+
+    <string name="q8_6">(7x7)-49</string>
+    <string name="o8_6_1">0</string>
+    <string name="o8_6_2">1</string>
+    <string name="o8_6_3">49</string>
+    <string name="o8_6_4">7</string>
+
+    <string name="q8_7">10+(3-2)</string>
+    <string name="o8_7_1">8</string>
+    <string name="o8_7_2">12</string>
+    <string name="o8_7_3">11</string>
+    <string name="o8_7_4">13</string>
+
+    <string name="q8_8">6x(6x1)</string>
+    <string name="o8_8_1">36</string>
+    <string name="o8_8_2">6</string>
+    <string name="o8_8_3">1</string>
+    <string name="o8_8_4">42</string>
+
+    <string name="q8_9">20:(8:4)</string>
+    <string name="o8_9_1">10</string>
+    <string name="o8_9_2">20</string>
+    <string name="o8_9_3">4</string>
+    <string name="o8_9_4">8</string>
+
+    <string name="q8_10">4+(4+20)</string>
+    <string name="o8_10_1">28</string>
+    <string name="o8_10_2">30</string>
+    <string name="o8_10_3">29</string>
+    <string name="o8_10_4">18</string>
+
+    <string name="q8_11">22:(2x1)</string>
+    <string name="o8_11_1">28</string>
+    <string name="o8_11_2">11</string>
+    <string name="o8_11_3">44</string>
+    <string name="o8_11_4">1</string>
+
+    <string name="q8_12">13+(3x2)</string>
+    <string name="o8_12_1">42</string>
+    <string name="o8_12_2">36</string>
+    <string name="o8_12_3">22</string>
+    <string name="o8_12_4">19</string>
+
+    <string name="q8_13">88-(11x8)</string>
+    <string name="o8_13_1">0</string>
+    <string name="o8_13_2">1</string>
+    <string name="o8_13_3">88</string>
+    <string name="o8_13_4">11</string>
+
+    <string name="q8_14">30:(2x5)</string>
+    <string name="o8_14_1">30</string>
+    <string name="o8_14_2">3</string>
+    <string name="o8_14_3">10</string>
+    <string name="o8_14_4">15</string>
+
+    <string name="q8_15">2x(2x2)</string>
+    <string name="o8_15_1">10</string>
+    <string name="o8_15_2">8</string>
+    <string name="o8_15_3">18</string>
+    <string name="o8_15_4">6</string>
+
+    <string name="q8_16">5+(2+2)</string>
+    <string name="o8_16_1">20</string>
+    <string name="o8_16_2">12</string>
+    <string name="o8_16_3">18</string>
+    <string name="o8_16_4">9</string>
+
+    <string name="q8_17">10:(2x5)</string>
+    <string name="o8_17_1">5</string>
+    <string name="o8_17_2">1</string>
+    <string name="o8_17_3">0</string>
+    <string name="o8_17_4">3</string>
+
+    <string name="q8_18">16+(2:2)</string>
+    <string name="o8_18_1">16</string>
+    <string name="o8_18_2">17</string>
+    <string name="o8_18_3">8</string>
+    <string name="o8_18_4">12</string>
+
+    <string name="q8_19">20-(10x2)</string>
+    <string name="o8_19_1">8</string>
+    <string name="o8_19_2">0</string>
+    <string name="o8_19_3">20</string>
+    <string name="o8_19_4">6</string>
+
+    <string name="q8_20">(3x3)+(3:3)</string>
+    <string name="o8_20_1">11</string>
+    <string name="o8_20_2">12</string>
+    <string name="o8_20_3">10</string>
+    <string name="o8_20_4">13</string>
+
+    <string name="q9_1">(2x2)+(3x0)</string>
+    <string name="o9_1_1">2</string>
+    <string name="o9_1_2">1</string>
+    <string name="o9_1_3">3</string>
+    <string name="o9_1_4">4</string>
+
+    <string name="q9_2">(1+2)+(3-1)</string>
+    <string name="o9_2_1">5</string>
+    <string name="o9_2_2">6</string>
+    <string name="o9_2_3">4</string>
+    <string name="o9_2_4">3</string>
+
+    <string name="q9_3">(2x3):2</string>
+    <string name="o9_3_1">6</string>
+    <string name="o9_3_2">3</string>
+    <string name="o9_3_3">12</string>
+    <string name="o9_3_4">7</string>
+
+    <string name="q9_4">(2+2)x(6:6)</string>
+    <string name="o9_4_1">7</string>
+    <string name="o9_4_2">24</string>
+    <string name="o9_4_3">4</string>
+    <string name="o9_4_4">2</string>
+
+    <string name="q9_5">(3+2)x(2+3)</string>
+    <string name="o9_5_1">35</string>
+    <string name="o9_5_2">25</string>
+    <string name="o9_5_3">24</string>
+    <string name="o9_5_4">45</string>
+
+    <string name="q9_6">(8-2)+(2+2)</string>
+    <string name="o9_6_1">0</string>
+    <string name="o9_6_2">10</string>
+    <string name="o9_6_3">14</string>
+    <string name="o9_6_4">12</string>
+
+    <string name="q9_7">(3+2)x(2x2)</string>
+    <string name="o9_7_1">8</string>
+    <string name="o9_7_2">12</string>
+    <string name="o9_7_3">20</string>
+    <string name="o9_7_4">22</string>
+
+    <string name="q9_8">(7-7)+(6x0)</string>
+    <string name="o9_8_1">49</string>
+    <string name="o9_8_2">36</string>
+    <string name="o9_8_3">6</string>
+    <string name="o9_8_4">0</string>
+
+    <string name="q9_9">(20:5)x(2:1)</string>
+    <string name="o9_9_1">8</string>
+    <string name="o9_9_2">4</string>
+    <string name="o9_9_3">12</string>
+    <string name="o9_9_4">20</string>
+
+    <string name="q9_10">(10:5)x(6:2)</string>
+    <string name="o9_10_1">18</string>
+    <string name="o9_10_2">12</string>
+    <string name="o9_10_3">6</string>
+    <string name="o9_10_4">1</string>
+
+    <string name="q9_11">(6-3):(2+1)</string>
+    <string name="o9_11_1">0</string>
+    <string name="o9_11_2">3</string>
+    <string name="o9_11_3">4</string>
+    <string name="o9_11_4">1</string>
+
+    <string name="q9_12">(6-2)+(3x2)</string>
+    <string name="o9_12_1">10</string>
+    <string name="o9_12_2">12</string>
+    <string name="o9_12_3">14</string>
+    <string name="o9_12_4">16</string>
+
+    <string name="q9_13">(32+1)-(11x3)</string>
+    <string name="o9_13_1">1</string>
+    <string name="o9_13_2">3</string>
+    <string name="o9_13_3">0</string>
+    <string name="o9_13_4">11</string>
+
+    <string name="q9_14">(6x6):(6x3)</string>
+    <string name="o9_14_1">3</string>
+    <string name="o9_14_2">4</string>
+    <string name="o9_14_3">1</string>
+    <string name="o9_14_4">2</string>
+
+    <string name="q9_15">(10-2)-(2-2)</string>
+    <string name="o9_15_1">12</string>
+    <string name="o9_15_2">8</string>
+    <string name="o9_15_3">4</string>
+    <string name="o9_15_4">6</string>
+
+    <string name="q9_16">(3+3)x2</string>
+    <string name="o9_16_1">8</string>
+    <string name="o9_16_2">12</string>
+    <string name="o9_16_3">18</string>
+    <string name="o9_16_4">6</string>
+
+    <string name="q9_17">(3-3)x(2+2)</string>
+    <string name="o9_17_1">5</string>
+    <string name="o9_17_2">1</string>
+    <string name="o9_17_3">0</string>
+    <string name="o9_17_4">3</string>
+
+    <string name="q9_18">2x(2x2)</string>
+    <string name="o9_18_1">16</string>
+    <string name="o9_18_2">17</string>
+    <string name="o9_18_3">8</string>
+    <string name="o9_18_4">12</string>
+
+    <string name="q9_19">3-(2x0)</string>
+    <string name="o9_19_1">8</string>
+    <string name="o9_19_2">0</string>
+    <string name="o9_19_3">20</string>
+    <string name="o9_19_4">3</string>
+
+    <string name="q9_20">(2-3)x(2x2)</string>
+    <string name="o9_20_1">4</string>
+    <string name="o9_20_2">5</string>
+    <string name="o9_20_3">-4</string>
+    <string name="o9_20_4">-3</string>
+
+    <string name="q10_1">20-7</string>
+    <string name="o10_1_1">11</string>
+    <string name="o10_1_2">12</string>
+    <string name="o10_1_3">13</string>
+    <string name="o10_1_4">14</string> //
+
+    <string name="q10_2">13x2</string>
+    <string name="o10_2_1">3</string>
+    <string name="o10_2_2">13</string>  //
+    <string name="o10_2_3">26</string>
+    <string name="o10_2_4">14</string>
+
+    <string name="q10_3">80:5</string>
+    <string name="o10_3_1">20</string>
+    <string name="o10_3_2">15</string>
+    <string name="o10_3_3">12</string> //
+    <string name="o10_3_4">16</string>
+
+    <string name="q10_4">67+14</string>
+    <string name="o10_4_1">74</string>
+    <string name="o10_4_2">81</string> //
+    <string name="o10_4_3">91</string>
+    <string name="o10_4_4">48</string>
+
+    <string name="q10_5">2x(3x1)</string>
+    <string name="o10_5_1">6</string>//
+    <string name="o10_5_2">8</string>
+    <string name="o10_5_3">12</string>
+    <string name="o10_5_4">16</string>
+
+    <string name="q10_6">10-(3+4)</string>
+    <string name="o10_6_1">12</string> //
+    <string name="o10_6_2">24</string>
+    <string name="o10_6_3">26</string>
+    <string name="o10_6_4">3</string>
+
+    <string name="q10_7">7x3</string>
+    <string name="o10_7_1">23</string>
+    <string name="o10_7_2">30</string>
+    <string name="o10_7_3">21</string>
+    <string name="o10_7_4">33</string>//
+
+    <string name="q10_8">10x10</string>
+    <string name="o10_8_1">10</string>
+    <string name="o10_8_2">100</string>
+    <string name="o10_8_3">1</string> //
+    <string name="o10_8_4">6</string>
+
+    <string name="q10_9">44:11</string>
+    <string name="o10_9_1">4</string>
+    <string name="o10_9_2">7</string>
+    <string name="o10_9_3">3</string>
+    <string name="o10_9_4">6</string> //
+
+    <string name="q10_10">80:4</string>
+    <string name="o10_10_1">12</string>
+    <string name="o10_10_2">22</string> //
+    <string name="o10_10_3">20</string>
+    <string name="o10_10_4">24</string>
+
+    <string name="q10_11">13:13</string>
+    <string name="o10_11_1">2</string>//
+    <string name="o10_11_2">0</string>
+    <string name="o10_11_3">1</string>
+    <string name="o10_11_4">4</string>
+
+    <string name="q10_12">7x6</string>
+    <string name="o10_12_1">42</string>//
+    <string name="o10_12_2">36</string>
+    <string name="o10_12_3">56</string>
+    <string name="o10_12_4">52</string>
+
+    <string name="q10_13">8:(2x2)</string>
+    <string name="o10_13_1">5</string>
+    <string name="o10_13_2">1</string>
+    <string name="o10_13_3">2</string>
+    <string name="o10_13_4">6</string>//
+
+    <string name="q10_14">50-(3x3)</string>
+    <string name="o10_14_1">41</string>
+    <string name="o10_14_2">31</string>
+    <string name="o10_14_3">21</string>//
+    <string name="o10_14_4">11</string>
+
+    <string name="q10_15">30:(2x5)</string>
+    <string name="o10_15_1">5</string>
+    <string name="o10_15_2">4</string>
+    <string name="o10_15_3">3</string>
+    <string name="o10_15_4">1</string>//
+
+    <string name="q10_16">88-(11x8)</string>
+    <string name="o10_16_1">1</string>
+    <string name="o10_16_2">0</string>
+    <string name="o10_16_3">3</string>
+    <string name="o10_16_4">2</string>//
+
+    <string name="q10_17">742-36</string>
+    <string name="o10_17_1">706</string>//
+    <string name="o10_17_2">716</string>
+    <string name="o10_17_3">796</string>
+    <string name="o10_17_4">816</string>
+
+    <string name="q10_18">(3+2)x(2x2)</string>
+    <string name="o10_18_1">9</string>
+    <string name="o10_18_2">20</string>//
+    <string name="o10_18_3">22</string>
+    <string name="o10_18_4">26</string>
+
+    <string name="q10_19">3-(2x0)</string>
+    <string name="o10_19_1">12</string>
+    <string name="o10_19_2">3</string>//
+    <string name="o10_19_3">6</string>
+    <string name="o10_19_4">3</string>
+
+    <string name="q10_20">13-23</string>
+    <string name="o10_20_1">10</string>
+    <string name="o10_20_2">-13</string>
+    <string name="o10_20_3">-10</string>//
+    <string name="o10_20_4">13</string>
 </resources>

@@ -26,7 +26,6 @@ public class Array {
             R.string.o1_20_1,R.string.o1_20_2,R.string.o1_20_3,R.string.o1_20_4,R.string.q1_20,
             R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,
     };
-
     final int [] power1 ={
             0,1,2,3,3,
             0,1,2,3,1,
@@ -327,6 +326,147 @@ public class Array {
             0,1,2,3,3,
             0,1,2,3,2,
             0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,4  //заглушка для 2
+    };
+
+    final int [] stringbtn8 = {
+            R.string.o8_1_1,R.string.o8_1_2,R.string.o8_1_3,R.string.o8_1_4,R.string.q8_1, //
+            R.string.o8_2_1,R.string.o8_2_2,R.string.o8_2_3,R.string.o8_2_4,R.string.q8_2, //
+            R.string.o8_3_1,R.string.o8_3_2,R.string.o8_3_3,R.string.o8_3_4,R.string.q8_3, //
+            R.string.o8_4_1,R.string.o8_4_2,R.string.o8_4_3,R.string.o8_4_4,R.string.q8_4, //
+            R.string.o8_5_1,R.string.o8_5_2,R.string.o8_5_3,R.string.o8_5_4,R.string.q8_5, //
+            R.string.o8_6_1,R.string.o8_6_2,R.string.o8_6_3,R.string.o8_6_4,R.string.q8_6, //
+            R.string.o8_7_1,R.string.o8_7_2,R.string.o8_7_3,R.string.o8_7_4,R.string.q8_7, //
+            R.string.o8_8_1,R.string.o8_8_2,R.string.o8_8_3,R.string.o8_8_4,R.string.q8_8, //
+            R.string.o8_9_1,R.string.o8_9_2,R.string.o8_9_3,R.string.o8_9_4,R.string.q8_9, //
+            R.string.o8_10_1,R.string.o8_10_2,R.string.o8_10_3,R.string.o8_10_4,R.string.q8_10, //
+            R.string.o8_11_1,R.string.o8_11_2,R.string.o8_11_3,R.string.o8_11_4,R.string.q8_11, //
+            R.string.o8_12_1,R.string.o8_12_2,R.string.o8_12_3,R.string.o8_12_4,R.string.q8_12, //
+            R.string.o8_13_1,R.string.o8_13_2,R.string.o8_13_3,R.string.o8_13_4,R.string.q8_13, //
+            R.string.o8_14_1,R.string.o8_14_2,R.string.o8_14_3,R.string.o8_14_4,R.string.q8_14, //
+            R.string.o8_15_1,R.string.o8_15_2,R.string.o8_15_3,R.string.o8_15_4,R.string.q8_15, //
+            R.string.o8_16_1,R.string.o8_16_2,R.string.o8_16_3,R.string.o8_16_4,R.string.q8_16, //
+            R.string.o8_17_1,R.string.o8_17_2,R.string.o8_17_3,R.string.o8_17_4,R.string.q8_17, //
+            R.string.o8_18_1,R.string.o8_18_2,R.string.o8_18_3,R.string.o8_18_4,R.string.q8_18, //
+            R.string.o8_19_1,R.string.o8_19_2,R.string.o8_19_3,R.string.o8_19_4,R.string.q8_19, //
+            R.string.o8_20_1,R.string.o8_20_2,R.string.o8_20_3,R.string.o8_20_4,R.string.q8_20,
+            R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,
+    };
+    final int [] power8 ={
+            0,1,2,3,1,
+            0,1,2,3,2,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,0,
+            0,1,2,3,0,
+            0,1,2,3,0,
+            0,1,2,3,1,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,3,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,2,
+            0,1,2,3,4  //заглушка для 2
+    };
+
+    final int [] stringbtn9 = {
+            R.string.o9_1_1,R.string.o9_1_2,R.string.o9_1_3,R.string.o9_1_4,R.string.q9_1, //
+            R.string.o9_2_1,R.string.o9_2_2,R.string.o9_2_3,R.string.o9_2_4,R.string.q9_2, //
+            R.string.o9_3_1,R.string.o9_3_2,R.string.o9_3_3,R.string.o9_3_4,R.string.q9_3, //
+            R.string.o9_4_1,R.string.o9_4_2,R.string.o9_4_3,R.string.o9_4_4,R.string.q9_4, //
+            R.string.o9_5_1,R.string.o9_5_2,R.string.o9_5_3,R.string.o9_5_4,R.string.q9_5, //
+            R.string.o9_6_1,R.string.o9_6_2,R.string.o9_6_3,R.string.o9_6_4,R.string.q9_6, //
+            R.string.o9_7_1,R.string.o9_7_2,R.string.o9_7_3,R.string.o9_7_4,R.string.q9_7, //
+            R.string.o9_8_1,R.string.o9_8_2,R.string.o9_8_3,R.string.o9_8_4,R.string.q9_8, //
+            R.string.o9_9_1,R.string.o9_9_2,R.string.o9_9_3,R.string.o9_9_4,R.string.q9_9, //
+            R.string.o9_10_1,R.string.o9_10_2,R.string.o9_10_3,R.string.o9_10_4,R.string.q9_10, //
+            R.string.o9_11_1,R.string.o9_11_2,R.string.o9_11_3,R.string.o9_11_4,R.string.q9_11, //
+            R.string.o9_12_1,R.string.o9_12_2,R.string.o9_12_3,R.string.o9_12_4,R.string.q9_12, //
+            R.string.o9_13_1,R.string.o9_13_2,R.string.o9_13_3,R.string.o9_13_4,R.string.q9_13, //
+            R.string.o9_14_1,R.string.o9_14_2,R.string.o9_14_3,R.string.o9_14_4,R.string.q9_14, //
+            R.string.o9_15_1,R.string.o9_15_2,R.string.o9_15_3,R.string.o9_15_4,R.string.q9_15, //
+            R.string.o9_16_1,R.string.o9_16_2,R.string.o9_16_3,R.string.o9_16_4,R.string.q9_16, //
+            R.string.o9_17_1,R.string.o9_17_2,R.string.o9_17_3,R.string.o9_17_4,R.string.q9_17, //
+            R.string.o9_18_1,R.string.o9_18_2,R.string.o9_18_3,R.string.o9_18_4,R.string.q9_18, //
+            R.string.o9_19_1,R.string.o9_19_2,R.string.o9_19_3,R.string.o9_19_4,R.string.q9_19, //
+            R.string.o9_20_1,R.string.o9_20_2,R.string.o9_20_3,R.string.o9_20_4,R.string.q9_20,
+            R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,
+    };
+    final int [] power9 ={
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,1,
+            0,1,2,3,2,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,2,
+            0,1,2,3,4  //заглушка для 2
+    };
+
+    final int [] stringbtn10 = {
+            R.string.o10_1_1,R.string.o10_1_2,R.string.o10_1_3,R.string.o10_1_4,R.string.q10_1, //
+            R.string.o10_2_1,R.string.o10_2_2,R.string.o10_2_3,R.string.o10_2_4,R.string.q10_2, //
+            R.string.o10_3_1,R.string.o10_3_2,R.string.o10_3_3,R.string.o10_3_4,R.string.q10_3, //
+            R.string.o10_4_1,R.string.o10_4_2,R.string.o10_4_3,R.string.o10_4_4,R.string.q10_4, //
+            R.string.o10_5_1,R.string.o10_5_2,R.string.o10_5_3,R.string.o10_5_4,R.string.q10_5, //
+            R.string.o10_6_1,R.string.o10_6_2,R.string.o10_6_3,R.string.o10_6_4,R.string.q10_6, //
+            R.string.o10_7_1,R.string.o10_7_2,R.string.o10_7_3,R.string.o10_7_4,R.string.q10_7, //
+            R.string.o10_8_1,R.string.o10_8_2,R.string.o10_8_3,R.string.o10_8_4,R.string.q10_8, //
+            R.string.o10_9_1,R.string.o10_9_2,R.string.o10_9_3,R.string.o10_9_4,R.string.q10_9, //
+            R.string.o10_10_1,R.string.o10_10_2,R.string.o10_10_3,R.string.o10_10_4,R.string.q10_10, //
+            R.string.o10_11_1,R.string.o10_11_2,R.string.o10_11_3,R.string.o10_11_4,R.string.q10_11, //
+            R.string.o10_12_1,R.string.o10_12_2,R.string.o10_12_3,R.string.o10_12_4,R.string.q10_12, //
+            R.string.o10_13_1,R.string.o10_13_2,R.string.o10_13_3,R.string.o10_13_4,R.string.q10_13, //
+            R.string.o10_14_1,R.string.o10_14_2,R.string.o10_14_3,R.string.o10_14_4,R.string.q10_14, //
+            R.string.o10_15_1,R.string.o10_15_2,R.string.o10_15_3,R.string.o10_15_4,R.string.q10_15, //
+            R.string.o10_16_1,R.string.o10_16_2,R.string.o10_16_3,R.string.o10_16_4,R.string.q10_16, //
+            R.string.o10_17_1,R.string.o10_17_2,R.string.o10_17_3,R.string.o10_17_4,R.string.q10_17, //
+            R.string.o10_18_1,R.string.o10_18_2,R.string.o10_18_3,R.string.o10_18_4,R.string.q10_18, //
+            R.string.o10_19_1,R.string.o10_19_2,R.string.o10_19_3,R.string.o10_19_4,R.string.q10_19, //
+            R.string.o10_20_1,R.string.o10_20_2,R.string.o10_20_3,R.string.o10_20_4,R.string.q10_20,
+            R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,R.string.fuuu,
+    };
+    final int [] power10 ={
+            0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,3,
+            0,1,2,3,1,
+            0,1,2,3,0,
+            0,1,2,3,3,
+            0,1,2,3,2,
+            0,1,2,3,1,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,2,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,0,
+            0,1,2,3,2,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,1,
+            0,1,2,3,1,
             0,1,2,3,2,
             0,1,2,3,4  //заглушка для 2
     };

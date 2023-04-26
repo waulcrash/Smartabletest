@@ -2,6 +2,7 @@ package com.example.mygame;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.media.MediaPlayer;
@@ -60,6 +61,9 @@ public class Level7 extends AppCompatActivity {
 
         TextView text_levels = findViewById(R.id.text_levels);
         text_levels.setText(R.string.level7); //текст уровня
+
+        SharedPreferences savestar7 = getSharedPreferences("Savestar7", MODE_PRIVATE);
+        final int star7 = savestar7.getInt("Star7", 0);
 
 
 
@@ -259,7 +263,7 @@ public class Level7 extends AppCompatActivity {
                     else{
 
                     }
-                    Intent intent = new Intent(Level7.this, Level7.class);
+                    Intent intent = new Intent(Level7.this, Level8.class);
                     startActivity(intent);finish();
                     running=false;
                     sec=0;
@@ -330,6 +334,26 @@ public class Level7 extends AppCompatActivity {
         //первоначальные значения силы к
 
         TextView txtprogressend =(TextView)dialogEnd.findViewById(R.id.time);
+
+        Button restart =(Button)setting.findViewById(R.id.restart);
+        restart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    if (reshbtn.resh == true) {
+                        soundPlay(btnsoung);
+                    } else {
+
+                    }
+
+                    backToast = Toast.makeText(getBaseContext(), "Вы не можете сбросить прогресс, когда находитесь в уровне", Toast.LENGTH_SHORT);
+                    backToast.show();
+
+                } catch (Exception e) {
+
+                }
+            }
+        });
 
 
 
@@ -570,24 +594,36 @@ public class Level7 extends AppCompatActivity {
                         //end
                         running=false;
                        dialogEnd.show();
-                        if(Variables.progresslvl<=7) {
-                            Variables.progresslvl = 8;
+                        SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+                        final int level = save.getInt("level", 1);
+                        if (level>7){
+
+                        }else{
+                            SharedPreferences.Editor editor = save.edit();
+                            editor.putInt("level",8);
+                            editor.commit();
                         }
 
                        my_timer.cancel();
 
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star7=3;
+                            SharedPreferences.Editor editor = savestar7.edit();
+                            editor.putInt("Star7",3);
+                            editor.commit();
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star7!=3) {
-                                Variables.star7 = 2;
+                            if(star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",2);
+                                editor.commit();
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star7!=2 && Variables.star7!=3) {
-                                Variables.star7 = 1;
+                            if(star7!=2 && star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",1);
+                                editor.commit();
                             }
                         }
 
@@ -739,24 +775,36 @@ public class Level7 extends AppCompatActivity {
                         //end
                         running=false;
                         dialogEnd.show();
-                        if(Variables.progresslvl<=7) {
-                            Variables.progresslvl = 8;
+                        SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+                        final int level = save.getInt("level", 1);
+                        if (level>7){
+
+                        }else{
+                            SharedPreferences.Editor editor = save.edit();
+                            editor.putInt("level",8);
+                            editor.commit();
                         }
 
                         my_timer.cancel();
 
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star7=3;
+                            SharedPreferences.Editor editor = savestar7.edit();
+                            editor.putInt("Star7",3);
+                            editor.commit();
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star7!=3) {
-                                Variables.star7 = 2;
+                            if(star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",2);
+                                editor.commit();
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star7!=2 && Variables.star7!=3) {
-                                Variables.star7 = 1;
+                            if(star7!=2 && star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",1);
+                                editor.commit();
                             }
                         }
                         nameprog.setText(name.get(num));
@@ -895,24 +943,36 @@ public class Level7 extends AppCompatActivity {
                         //end
                         running=false;
                         dialogEnd.show();
-                        if(Variables.progresslvl<=7) {
-                            Variables.progresslvl = 8;
+                        SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+                        final int level = save.getInt("level", 1);
+                        if (level>7){
+
+                        }else{
+                            SharedPreferences.Editor editor = save.edit();
+                            editor.putInt("level",8);
+                            editor.commit();
                         }
 
                         my_timer.cancel();
 
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star7=3;
+                            SharedPreferences.Editor editor = savestar7.edit();
+                            editor.putInt("Star7",3);
+                            editor.commit();
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star7!=3) {
-                                Variables.star7 = 2;
+                            if(star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",2);
+                                editor.commit();
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star7!=2 && Variables.star7!=3) {
-                                Variables.star7 = 1;
+                            if(star7!=2 && star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",1);
+                                editor.commit();
                             }
                         }
                         nameprog.setText(name.get(num));
@@ -1043,24 +1103,36 @@ public class Level7 extends AppCompatActivity {
                     if (count==20){
                         //end
                         running=false;
-                        if(Variables.progresslvl<=7) {
-                            Variables.progresslvl = 8;
+                        SharedPreferences save = getSharedPreferences("Save", MODE_PRIVATE);
+                        final int level = save.getInt("level", 1);
+                        if (level>7){
+
+                        }else{
+                            SharedPreferences.Editor editor = save.edit();
+                            editor.putInt("level",8);
+                            editor.commit();
                         }
 
                         my_timer.cancel();
 
                         if (stars ==3){
                             starses.setImageResource(R.drawable.starsendfull);
-                            Variables.star7=3;
+                            SharedPreferences.Editor editor = savestar7.edit();
+                            editor.putInt("Star7",3);
+                            editor.commit();
                         }else if (stars ==2){
                             starses.setImageResource(R.drawable.starsendtwo);
-                            if(Variables.star7!=3) {
-                                Variables.star7 = 2;
+                            if(star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",2);
+                                editor.commit();
                             }
                         }else{
                             starses.setImageResource(R.drawable.starsendone);
-                            if(Variables.star7!=2 && Variables.star7!=3) {
-                                Variables.star7 = 1;
+                            if(star7!=2 && star7!=3) {
+                                SharedPreferences.Editor editor = savestar7.edit();
+                                editor.putInt("Star7",1);
+                                editor.commit();
                             }
                         }
                         nameprog.setText(name.get(num));
