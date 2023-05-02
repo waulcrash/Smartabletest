@@ -187,7 +187,7 @@ public class GameLevels extends AppCompatActivity {
         //
         //
         SharedPreferences savestar16 = getSharedPreferences("Savestar16", MODE_PRIVATE);
-        final int star16 = savestar4.getInt("Star16", 0);
+        final int star16 = savestar16.getInt("Star16", 0);
 
         SharedPreferences status16 = getSharedPreferences("Status16", MODE_PRIVATE);
         final int statusstar16 = status16.getInt("StatusStar16", 0);
@@ -372,16 +372,7 @@ public class GameLevels extends AppCompatActivity {
         ImageView stars18 = (ImageView) findViewById(R.id.stars18);
         ImageView stars19 = (ImageView) findViewById(R.id.stars19);
         ImageView stars20 = (ImageView) findViewById(R.id.stars20);
-        ImageView stars21 = (ImageView) findViewById(R.id.stars21);
-        ImageView stars22 = (ImageView) findViewById(R.id.stars22);
-        ImageView stars23 = (ImageView) findViewById(R.id.stars23);
-        ImageView stars24 = (ImageView) findViewById(R.id.stars24);
-        ImageView stars25 = (ImageView) findViewById(R.id.stars25);
-        ImageView stars26 = (ImageView) findViewById(R.id.stars26);
-        ImageView stars27 = (ImageView) findViewById(R.id.stars27);
-        ImageView stars28 = (ImageView) findViewById(R.id.stars28);
-        ImageView stars29 = (ImageView) findViewById(R.id.stars29);
-        ImageView stars30 = (ImageView) findViewById(R.id.stars30);
+
         //stars end
 
 
@@ -1215,441 +1206,7 @@ public class GameLevels extends AppCompatActivity {
             }
             stars20.setImageResource(R.drawable.starsendfull);
         }
-        if (star21 == 1){
 
-            if (statusstar21==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status21.edit();
-                editor2.putInt("Status21",1);
-                editor2.commit();
-            }
-            stars21.setImageResource(R.drawable.starsendone);
-        }else if (star21==2){
-            if (statusstar21_2==0) {
-                countstars=countstars+2;
-                if (statusstar21==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status21.edit();
-                editor2.putInt("Status21",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status21_2.edit();
-                editor3.putInt("Status21_2",1);
-                editor3.commit();
-            }
-            stars21.setImageResource(R.drawable.starsendtwo);
-        }else if (star21==3){
-            if (statusstar21_3==0) {
-                countstars=countstars+3;
-                if (statusstar21==1 && statusstar21_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar21==0 && statusstar21_2==1 || statusstar21==1 && statusstar21_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status21.edit();
-                editor2.putInt("Status21",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status21_2.edit();
-                editor3.putInt("Status21_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status21_3.edit();
-                editor4.putInt("Status21_3",1);
-                editor4.commit();
-            }
-            stars21.setImageResource(R.drawable.starsendfull);
-        }
-        if (star22 == 1){
-
-            if (statusstar22==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status22.edit();
-                editor2.putInt("Status22",1);
-                editor2.commit();
-            }
-            stars22.setImageResource(R.drawable.starsendone);
-        }else if (star22==2){
-            if (statusstar22_2==0) {
-                countstars=countstars+2;
-                if (statusstar22==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status22.edit();
-                editor2.putInt("Status22",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status22_2.edit();
-                editor3.putInt("Status22_2",1);
-                editor3.commit();
-            }
-            stars22.setImageResource(R.drawable.starsendtwo);
-        }else if (star22==3){
-            if (statusstar22_3==0) {
-                countstars=countstars+3;
-                if (statusstar22==1 && statusstar22_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar22==0 && statusstar22_2==1 || statusstar22==1 && statusstar22_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status22.edit();
-                editor2.putInt("Status22",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status22_2.edit();
-                editor3.putInt("Status22_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status22_3.edit();
-                editor4.putInt("Status22_3",1);
-                editor4.commit();
-            }
-            stars22.setImageResource(R.drawable.starsendfull);
-        }
-
-
-
-        if (star23 == 1){
-
-            if (statusstar23==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status23.edit();
-                editor2.putInt("Status23",1);
-                editor2.commit();
-            }
-            stars23.setImageResource(R.drawable.starsendone);
-        }else if (star23==2){
-            if (statusstar23_2==0) {
-                countstars=countstars+2;
-                if (statusstar23==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status23.edit();
-                editor2.putInt("Status23",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status23_2.edit();
-                editor3.putInt("Status23_2",1);
-                editor3.commit();
-            }
-            stars23.setImageResource(R.drawable.starsendtwo);
-        }else if (star23==3){
-            if (statusstar23_3==0) {
-                countstars=countstars+3;
-                if (statusstar23==1 && statusstar23_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar23==0 && statusstar23_2==1 || statusstar23==1 && statusstar23_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status23.edit();
-                editor2.putInt("Status23",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status23_2.edit();
-                editor3.putInt("Status23_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status23_3.edit();
-                editor4.putInt("Status23_3",1);
-                editor4.commit();
-            }
-            stars23.setImageResource(R.drawable.starsendfull);
-        }
-
-
-        if (star24 == 1){
-
-            if (statusstar24==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status24.edit();
-                editor2.putInt("Status24",1);
-                editor2.commit();
-            }
-            stars24.setImageResource(R.drawable.starsendone);
-        }else if (star24==2){
-            if (statusstar24_2==0) {
-                countstars=countstars+2;
-                if (statusstar24==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status24.edit();
-                editor2.putInt("Status24",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status24_2.edit();
-                editor3.putInt("Status24_2",1);
-                editor3.commit();
-            }
-            stars4.setImageResource(R.drawable.starsendtwo);
-        }else if (star24==3){
-            if (statusstar24_3==0) {
-                countstars=countstars+3;
-                if (statusstar24==1 && statusstar24_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar24==0 && statusstar24_2==1 || statusstar24==1 && statusstar24_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status24.edit();
-                editor2.putInt("Status24",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status24_2.edit();
-                editor3.putInt("Status24_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status24_3.edit();
-                editor4.putInt("Status24_3",1);
-                editor4.commit();
-            }
-            stars24.setImageResource(R.drawable.starsendfull);
-        }
-        if (star25 == 1){
-
-            if (statusstar25==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status25.edit();
-                editor2.putInt("Status25",1);
-                editor2.commit();
-            }
-            stars25.setImageResource(R.drawable.starsendone);
-        }else if (star25==2){
-            if (statusstar25_2==0) {
-                countstars=countstars+2;
-                if (statusstar25==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status25.edit();
-                editor2.putInt("Status25",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status25_2.edit();
-                editor3.putInt("Status25_2",1);
-                editor3.commit();
-            }
-            stars25.setImageResource(R.drawable.starsendtwo);
-        }else if (star25==3){
-            if (statusstar25_3==0) {
-                countstars=countstars+3;
-                if (statusstar25==1 && statusstar25_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar25==0 && statusstar25_2==1 || statusstar25==1 && statusstar25_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status25.edit();
-                editor2.putInt("Status25",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status25_2.edit();
-                editor3.putInt("Status25_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status25_3.edit();
-                editor4.putInt("Status25_3",1);
-                editor4.commit();
-            }
-            stars25.setImageResource(R.drawable.starsendfull);
-        }
-        if (star26 == 1){
-
-            if (statusstar26==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status26.edit();
-                editor2.putInt("Status26",1);
-                editor2.commit();
-            }
-            stars26.setImageResource(R.drawable.starsendone);
-        }else if (star26==2){
-            if (statusstar26_2==0) {
-                countstars=countstars+2;
-                if (statusstar26==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status26.edit();
-                editor2.putInt("Status26",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status26_2.edit();
-                editor3.putInt("Status26_2",1);
-                editor3.commit();
-            }
-            stars26.setImageResource(R.drawable.starsendtwo);
-        }else if (star26==3){
-            if (statusstar26_3==0) {
-                countstars=countstars+3;
-                if (statusstar26==1 && statusstar26_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar26==0 && statusstar26_2==1 || statusstar26==1 && statusstar26_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status26.edit();
-                editor2.putInt("Status26",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status26_2.edit();
-                editor3.putInt("Status26_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status26_3.edit();
-                editor4.putInt("Status24_3",1);
-                editor4.commit();
-            }
-            stars26.setImageResource(R.drawable.starsendfull);
-        }
-        if (star27 == 1){
-
-            if (statusstar27==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status27.edit();
-                editor2.putInt("Status27",1);
-                editor2.commit();
-            }
-            stars27.setImageResource(R.drawable.starsendone);
-        }else if (star27==2){
-            if (statusstar27_2==0) {
-                countstars=countstars+2;
-                if (statusstar27==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status27.edit();
-                editor2.putInt("Status27",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status27_2.edit();
-                editor3.putInt("Status27_2",1);
-                editor3.commit();
-            }
-            stars27.setImageResource(R.drawable.starsendtwo);
-        }else if (star27==3){
-            if (statusstar27_3==0) {
-                countstars=countstars+3;
-                if (statusstar27==1 && statusstar27_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar27==0 && statusstar27_2==1 || statusstar27==1 && statusstar27_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status27.edit();
-                editor2.putInt("Status27",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status27_2.edit();
-                editor3.putInt("Status27_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status27_3.edit();
-                editor4.putInt("Status27_3",1);
-                editor4.commit();
-            }
-            stars27.setImageResource(R.drawable.starsendfull);
-        }
-        if (star28 == 1){
-
-            if (statusstar28==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status28.edit();
-                editor2.putInt("Status28",1);
-                editor2.commit();
-            }
-            stars28.setImageResource(R.drawable.starsendone);
-        }else if (star28==2){
-            if (statusstar28_2==0) {
-                countstars=countstars+2;
-                if (statusstar28==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status28.edit();
-                editor2.putInt("Status28",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status28_2.edit();
-                editor3.putInt("Status28_2",1);
-                editor3.commit();
-            }
-            stars28.setImageResource(R.drawable.starsendtwo);
-        }else if (star28==3){
-            if (statusstar28_3==0) {
-                countstars=countstars+3;
-                if (statusstar28==1 && statusstar28_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar28==0 && statusstar28_2==1 || statusstar28==1 && statusstar28_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status28.edit();
-                editor2.putInt("Status28",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status28_2.edit();
-                editor3.putInt("Status28_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status28_3.edit();
-                editor4.putInt("Status28_3",1);
-                editor4.commit();
-            }
-            stars28.setImageResource(R.drawable.starsendfull);
-        }
-        if (star29 == 1){
-
-            if (statusstar29==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status29.edit();
-                editor2.putInt("Status29",1);
-                editor2.commit();
-            }
-            stars29.setImageResource(R.drawable.starsendone);
-        }else if (star29==2){
-            if (statusstar29_2==0) {
-                countstars=countstars+2;
-                if (statusstar29==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status29.edit();
-                editor2.putInt("Status29",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status9_2.edit();
-                editor3.putInt("Status29_2",1);
-                editor3.commit();
-            }
-            stars29.setImageResource(R.drawable.starsendtwo);
-        }else if (star29==3){
-            if (statusstar29_3==0) {
-                countstars=countstars+3;
-                if (statusstar29==1 && statusstar29_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar29==0 && statusstar29_2==1 || statusstar29==1 && statusstar29_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status29.edit();
-                editor2.putInt("Status29",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status29_2.edit();
-                editor3.putInt("Status29_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status29_3.edit();
-                editor4.putInt("Status29_3",1);
-                editor4.commit();
-            }
-            stars29.setImageResource(R.drawable.starsendfull);
-        }
-        if (star30 == 1){
-
-            if (statusstar30==0){
-                countstars=countstars+1;
-                SharedPreferences.Editor editor2 = status30.edit();
-                editor2.putInt("Status30",1);
-                editor2.commit();
-            }
-            stars30.setImageResource(R.drawable.starsendone);
-        }else if (star30==2){
-            if (statusstar30_2==0) {
-                countstars=countstars+2;
-                if (statusstar30==1){
-                    countstars=countstars-1;
-                }
-                SharedPreferences.Editor editor2 = status30.edit();
-                editor2.putInt("Status30",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status30_2.edit();
-                editor3.putInt("Status30_2",1);
-                editor3.commit();
-            }
-            stars30.setImageResource(R.drawable.starsendtwo);
-        }else if (star30==3){
-            if (statusstar30_3==0) {
-                countstars=countstars+3;
-                if (statusstar30==1 && statusstar30_2==0){
-                    countstars=countstars-1;
-                }else if(statusstar30==0 && statusstar30_2==1 || statusstar30==1 && statusstar30_2==1){
-                    countstars=countstars-2;
-                }
-                SharedPreferences.Editor editor2 = status30.edit();
-                editor2.putInt("Status30",1);
-                editor2.commit();
-                SharedPreferences.Editor editor3 = status30_2.edit();
-                editor3.putInt("Status30_2",1);
-                editor3.commit();
-                SharedPreferences.Editor editor4 = status30_3.edit();
-                editor4.putInt("Status30_3",1);
-                editor4.commit();
-            }
-            stars30.setImageResource(R.drawable.starsendfull);
-        }
 
 
         TextView countstr = (TextView) findViewById(R.id.countstars);
@@ -1898,6 +1455,145 @@ public class GameLevels extends AppCompatActivity {
 
                         }
                         Intent intent = new Intent(GameLevels.this, Level10.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=11) {
+
+            TextView textView11 = (TextView) findViewById(R.id.textView11);
+            textView11.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView11.setText("11");
+            textView11.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level11.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=12) {
+
+            TextView textView12 = (TextView) findViewById(R.id.textView12);
+            textView12.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView12.setText("12");
+            textView12.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level12.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=13) {
+
+            TextView textView13 = (TextView) findViewById(R.id.textView13);
+            textView13.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView13.setText("13");
+            textView13.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level13.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+
+        if (level>=14) {
+
+            TextView textView14 = (TextView) findViewById(R.id.textView14);
+            textView14.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView14.setText("14");
+            textView14.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level14.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=15) {
+
+            TextView textView15 = (TextView) findViewById(R.id.textView15);
+            textView15.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView15.setText("15");
+            textView15.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level15.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=16) {
+
+            TextView textView16 = (TextView) findViewById(R.id.textView16);
+            textView16.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView16.setText("16");
+            textView16.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level16.class);
                         startActivity(intent);
                         finish();
                     } catch (Exception e) {

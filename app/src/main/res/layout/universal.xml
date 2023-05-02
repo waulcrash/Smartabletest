@@ -81,12 +81,12 @@
                     android:gravity="center"
                     android:padding="10dp"
                     android:text="20"
-                    android:fontFamily="@font/jet"
+                    android:fontFamily="@font/anreg"
                     android:textColor="@color/white"
 
 
-                    android:textSize="18dp"
-                    android:textStyle="bold"
+                    android:textSize="14dp"
+
 
                     />
 
@@ -325,10 +325,10 @@
                     android:gravity="center"
                     android:scaleType="centerCrop"
                     android:text=""
-                    android:fontFamily="@font/jet"
+                    android:fontFamily="@font/anreg"
                     android:textColor="@color/white"
                     android:textSize="24dp"
-                    android:textStyle="bold" />
+                     />
 
 
             </LinearLayout>
@@ -352,8 +352,8 @@
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="24dp"
-                    android:fontFamily="@font/jet"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/anreg"
+                     />
 
                 <TextView
                     android:id="@+id/img_r"
@@ -365,7 +365,7 @@
                     android:gravity="center"
                     android:scaleType="centerCrop"
                     android:text=""
-                    android:fontFamily="@font/jet"
+                    android:fontFamily="@font/anreg"
                     android:textColor="@color/white"
                     android:textSize="24dp"
                     android:textStyle="bold" />
@@ -390,8 +390,8 @@
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="24dp"
-                    android:fontFamily="@font/jet"
-                    android:textStyle="bold" />
+                    android:fontFamily="@font/anreg"
+                     />
 
                 <TextView
                     android:id="@+id/img_r2"
@@ -401,12 +401,12 @@
                     android:layout_weight="1"
                     android:background="@drawable/btn_otvet"
                     android:gravity="center"
-                    android:fontFamily="@font/jet"
+                    android:fontFamily="@font/anreg"
                     android:scaleType="centerCrop"
                     android:text=""
                     android:textColor="@color/white"
                     android:textSize="24dp"
-                    android:textStyle="bold" />
+                     />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

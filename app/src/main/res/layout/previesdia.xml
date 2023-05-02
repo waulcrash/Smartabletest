@@ -48,7 +48,7 @@
             android:text="@string/levelone"
             android:fontFamily="@font/jet"
             android:layout_weight="30"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             android:textSize="16sp"
             android:layout_marginTop="10dp"
             android:textStyle="bold"

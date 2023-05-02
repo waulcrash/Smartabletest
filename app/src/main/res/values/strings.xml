@@ -50,6 +50,7 @@
     <string name="settingvib">Вибрация</string>
     <string name="settingmusic">Музыка</string>
     <string name="x">x</string>
+    <string name="levelelev">"Поздравляем, вы прошли начальную ветвь и теперь мы усложним примеры.\nЧисла могут быть не только положительными, но и отрицательными, не только целыми, но и дробными.\nДля начала приведем примеры для разминки."</string>
 
 
 </resources>
