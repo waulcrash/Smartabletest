@@ -344,6 +344,189 @@ public class MainActivity extends AppCompatActivity {
                     editor37.putInt("StatusStar10_3",0);
                     editor37.commit();
                     //
+                    //
+                    SharedPreferences savestar11 = getSharedPreferences("Savestar11", MODE_PRIVATE);
+                    final int star11 = savestar11.getInt("Star11", 0);
+                    SharedPreferences.Editor editor38 = savestar11.edit();
+                    editor38.putInt("Star11",0);
+                    editor38.commit();
+                    SharedPreferences status11 = getSharedPreferences("Status11", MODE_PRIVATE);
+                    final int statusstar11 = status11.getInt("StatusStar11", 0);
+                    SharedPreferences.Editor editor39 = status11.edit();
+                    editor39.putInt("StatusStar11",0);
+                    editor39.commit();
+                    SharedPreferences status11_2 = getSharedPreferences("Status11_2", MODE_PRIVATE);
+                    final int statusstar11_2 = status11_2.getInt("StatusStar11_2", 0);
+                    SharedPreferences.Editor editor40 = status11_2.edit();
+                    editor40.putInt("StatusStar11_2",0);
+                    editor40.commit();
+                    SharedPreferences status11_3 = getSharedPreferences("Status11_3", MODE_PRIVATE);
+                    final int statusstar11_3 = status11_3.getInt("StatusStar11_3", 0);
+                    SharedPreferences.Editor editor41 = status11_3.edit();
+                    editor41.putInt("StatusStar11_3",0);
+                    editor41.commit();
+                    //
+                    //
+                    SharedPreferences savestar12 = getSharedPreferences("Savestar12", MODE_PRIVATE);
+                    final int star12 = savestar12.getInt("Star12", 0);
+                    SharedPreferences.Editor editor42 = savestar12.edit();
+                    editor42.putInt("Star12",0);
+                    editor42.commit();
+                    SharedPreferences status12 = getSharedPreferences("Status12", MODE_PRIVATE);
+                    final int statusstar12 = status12.getInt("StatusStar12", 0);
+                    SharedPreferences.Editor editor43 = status12.edit();
+                    editor43.putInt("StatusStar12",0);
+                    editor43.commit();
+                    SharedPreferences status12_2 = getSharedPreferences("Status12_2", MODE_PRIVATE);
+                    final int statusstar12_2 = status12_2.getInt("StatusStar12_2", 0);
+                    SharedPreferences.Editor editor44 = status12_2.edit();
+                    editor44.putInt("StatusStar12_2",0);
+                    editor44.commit();
+                    SharedPreferences status12_3 = getSharedPreferences("Status12_3", MODE_PRIVATE);
+                    final int statusstar12_3 = status12_3.getInt("StatusStar12_3", 0);
+                    SharedPreferences.Editor editor45 = status12_3.edit();
+                    editor44.putInt("StatusStar12_3",0);
+                    editor44.commit();
+                    //
+                    //
+                    SharedPreferences savestar13 = getSharedPreferences("Savestar13", MODE_PRIVATE);
+                    final int star13 = savestar13.getInt("Star13", 0);
+                    SharedPreferences.Editor editor46 = savestar13.edit();
+                    editor46.putInt("Star13",0);
+                    editor46.commit();
+                    SharedPreferences status13 = getSharedPreferences("Status13", MODE_PRIVATE);
+                    final int statusstar13 = status13.getInt("StatusStar13", 0);
+                    SharedPreferences.Editor editor47 = status13.edit();
+                    editor47.putInt("StatusStar13",0);
+                    editor47.commit();
+                    SharedPreferences status13_2 = getSharedPreferences("Status13_2", MODE_PRIVATE);
+                    final int statusstar13_2 = status13_2.getInt("StatusStar13_2", 0);
+                    SharedPreferences.Editor editor48 = status13_2.edit();
+                    editor8.putInt("StatusStar13_2",0);
+                    editor8.commit();
+                    SharedPreferences status13_3 = getSharedPreferences("Status13_3", MODE_PRIVATE);
+                    final int statusstar13_3 = status13_3.getInt("StatusStar13_3", 0);
+                    SharedPreferences.Editor editor49 = status13_3.edit();
+                    editor49.putInt("StatusStar3_3",0);
+                    editor49.commit();
+                    //
+                    //
+                    SharedPreferences savestar14 = getSharedPreferences("Savestar14", MODE_PRIVATE);
+                    final int star14 = savestar14.getInt("Star14", 0);
+                    SharedPreferences.Editor editor50 = savestar14.edit();
+                    editor50.putInt("Star14",0);
+                    editor50.commit();
+                    SharedPreferences status14 = getSharedPreferences("Status14", MODE_PRIVATE);
+                    final int statusstar14 = status14.getInt("StatusStar14", 0);
+                    SharedPreferences.Editor editor51 = status14.edit();
+                    editor51.putInt("StatusStar14",0);
+                    editor51.commit();
+                    SharedPreferences status14_2 = getSharedPreferences("Status14_2", MODE_PRIVATE);
+                    final int statusstar14_2 = status14_2.getInt("StatusStar14_2", 0);
+                    SharedPreferences.Editor editor52 = status14_2.edit();
+                    editor52.putInt("StatusStar14_2",0);
+                    editor52.commit();
+                    SharedPreferences status14_3 = getSharedPreferences("Status14_3", MODE_PRIVATE);
+                    final int statusstar14_3 = status14_3.getInt("StatusStar14_3", 0);
+                    SharedPreferences.Editor editor53 = status14_3.edit();
+                    editor53.putInt("StatusStar14_3",0);
+                    editor53.commit();
+                    //
+                    //
+                    SharedPreferences savestar15 = getSharedPreferences("Savestar15", MODE_PRIVATE);
+                    final int star15 = savestar15.getInt("Star15", 0);
+                    SharedPreferences.Editor editor54 = savestar15.edit();
+                    editor54.putInt("Star15",0);
+                    editor54.commit();
+                    SharedPreferences status15 = getSharedPreferences("Status15", MODE_PRIVATE);
+                    final int statusstar15 = status15.getInt("StatusStar15", 0);
+                    SharedPreferences.Editor editor55 = status15.edit();
+                    editor55.putInt("StatusStar15",0);
+                    editor55.commit();
+                    SharedPreferences status15_2 = getSharedPreferences("Status15_2", MODE_PRIVATE);
+                    final int statusstar15_2 = status15_2.getInt("StatusStar15_2", 0);
+                    SharedPreferences.Editor editor56 = status15_2.edit();
+                    editor56.putInt("StatusStar15_2",0);
+                    editor56.commit();
+                    SharedPreferences status15_3 = getSharedPreferences("Status15_3", MODE_PRIVATE);
+                    final int statusstar15_3 = status15_3.getInt("StatusStar15_3", 0);
+                    SharedPreferences.Editor editor57 = status15_3.edit();
+                    editor57.putInt("StatusStar15_3",0);
+                    editor57.commit();
+                    //
+                    //
+                    SharedPreferences savestar16 = getSharedPreferences("Savestar16", MODE_PRIVATE);
+                    final int star16 = savestar16.getInt("Star16", 0);
+                    SharedPreferences.Editor editor58 = savestar16.edit();
+                    editor58.putInt("Star16",0);
+                    editor58.commit();
+                    SharedPreferences status16 = getSharedPreferences("Status16", MODE_PRIVATE);
+                    final int statusstar16 = status16.getInt("StatusStar16", 0);
+                    SharedPreferences.Editor editor59 = status16.edit();
+                    editor59.putInt("StatusStar16",0);
+                    editor59.commit();
+                    SharedPreferences status16_2 = getSharedPreferences("Status16_2", MODE_PRIVATE);
+                    final int statusstar16_2 = status16_2.getInt("StatusStar16_2", 0);
+                    SharedPreferences.Editor editor60 = status16_2.edit();
+                    editor60.putInt("StatusStar16_2",0);
+                    editor60.commit();
+                    SharedPreferences status16_3 = getSharedPreferences("Status16_3", MODE_PRIVATE);
+                    final int statusstar16_3 = status16_3.getInt("StatusStar16_3", 0);
+                    SharedPreferences.Editor editor61 = status16_3.edit();
+                    editor61.putInt("StatusStar16_3",0);
+                    editor61.commit();
+                    //
+                    //
+                    SharedPreferences savestar17 = getSharedPreferences("Savestar17", MODE_PRIVATE);
+                    final int star17 = savestar17.getInt("Star17", 0);
+                    SharedPreferences.Editor editor62 = savestar17.edit();
+                    editor62.putInt("Star17",0);
+                    editor62.commit();
+                    SharedPreferences status17 = getSharedPreferences("Status17", MODE_PRIVATE);
+                    final int statusstar17 = status17.getInt("StatusStar17", 0);
+                    SharedPreferences.Editor editor63 = status17.edit();
+                    editor63.putInt("StatusStar17",0);
+                    editor63.commit();
+                    SharedPreferences status17_2 = getSharedPreferences("Status17_2", MODE_PRIVATE);
+                    final int statusstar17_2 = status17_2.getInt("StatusStar17_2", 0);
+                    SharedPreferences.Editor editor64 = status17_2.edit();
+                    editor64.putInt("StatusStar17_2",0);
+                    editor64.commit();
+                    SharedPreferences status17_3 = getSharedPreferences("Status17_3", MODE_PRIVATE);
+                    final int statusstar17_3 = status17_3.getInt("StatusStar17_3", 0);
+                    SharedPreferences.Editor editor65 = status17_3.edit();
+                    editor65.putInt("StatusStar17_3",0);
+                    editor65.commit();
+                    //
+                    //
+                    SharedPreferences savestar18 = getSharedPreferences("Savestar18", MODE_PRIVATE);
+                    final int star18 = savestar18.getInt("Star18", 0);
+                    SharedPreferences.Editor editor66 = savestar18.edit();
+                    editor66.putInt("Star18",0);
+                    editor66.commit();
+                    SharedPreferences status18 = getSharedPreferences("Status18", MODE_PRIVATE);
+                    final int statusstar18 = status18.getInt("StatusStar18", 0);
+                    SharedPreferences.Editor editor67 = status18.edit();
+                    editor67.putInt("StatusStar18",0);
+                    editor67.commit();
+                    SharedPreferences status18_2 = getSharedPreferences("Status18_2", MODE_PRIVATE);
+                    final int statusstar18_2 = status18_2.getInt("StatusStar18_2", 0);
+                    SharedPreferences.Editor editor68 = status18_2.edit();
+                    editor68.putInt("StatusStar18_2",0);
+                    editor68.commit();
+                    SharedPreferences status18_3 = getSharedPreferences("Status18_3", MODE_PRIVATE);
+                    final int statusstar18_3 = status18_3.getInt("StatusStar18_3", 0);
+                    SharedPreferences.Editor editor69 = status18_3.edit();
+                    editor69.putInt("StatusStar18_3",0);
+                    editor69.commit();
+                    //
+                    //
+                    SharedPreferences savestar1c = getSharedPreferences("Savestar1c", MODE_PRIVATE);
+                    final int star1c = savestar1c.getInt("Star1c", 0);
+                    SharedPreferences.Editor editor70= savestar1c.edit();
+                    editor70.putInt("Star1c",0);
+                    editor70.commit();
+                    //
 
 
                 } catch (Exception e) {

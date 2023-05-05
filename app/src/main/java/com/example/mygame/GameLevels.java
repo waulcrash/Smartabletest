@@ -17,7 +17,7 @@ public class GameLevels extends AppCompatActivity {
     Setting reshbtn= new Setting();//распространение настроек
     private MediaPlayer btnsoung;//звук нажатия кнопки
 
-    public int countstars=0;
+    public  int countstars=0;
 
 
     @Override
@@ -1594,6 +1594,52 @@ public class GameLevels extends AppCompatActivity {
 
                         }
                         Intent intent = new Intent(GameLevels.this, Level16.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=17) {
+
+            TextView textView17 = (TextView) findViewById(R.id.textView17);
+            textView17.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView17.setText("17");
+            textView17.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level17.class);
+                        startActivity(intent);
+                        finish();
+                    } catch (Exception e) {
+
+                    }
+                }
+            });
+        }
+        if (level>=18) {
+
+            TextView textView18 = (TextView) findViewById(R.id.textView18);
+            textView18.setBackgroundResource(R.drawable.btn_gamelevels);
+            textView18.setText("18");
+            textView18.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    try {
+                        if (reshbtn.resh == true) {
+                            soundPlay(btnsoung);
+                        } else {
+
+                        }
+                        Intent intent = new Intent(GameLevels.this, Level18.class);
                         startActivity(intent);
                         finish();
                     } catch (Exception e) {

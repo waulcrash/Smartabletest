@@ -33,6 +33,8 @@
     <string name="level28">Уровень 28</string>
     <string name="level29">Уровень 29</string>
     <string name="level30">Уровень 30</string>
+    <string name="Chapter1">Глава 1</string>
+    <string name="Chapter2">Глава 2</string>
     <string name="levelone">Выбери правильный ответ.\nВы не сможете продвинуться дальше, пока вы не наберете 20 очков.\nПравильный ответ продвинет вас на 1 этап, а не правильный вернет на 2 этапа назад</string>
     <string name="leveltwo">Вы познакомились с правилами игры.\nУсловия остаются теми же, но теперь добавился таймер и жизни.\nЕсли вы не успеете пройти уровень за определенное время или ошибетесь 3 раза, то вернетесь к началу уровня.</string>
     <string name="leveloneend">"Поздравляем, вы прошли уровень!\n
@@ -45,6 +47,7 @@
     <string name="dialogback">X</string>
     <string name="settingbtnsong">Звук кнопки</string>
     <string name="settingvkl">Вкл</string>
+    <string name="settingrestart">Сброс прогресса</string>
     <string name="settingvick">Выкл</string>
     <string name="setting">Настройки</string>
     <string name="settingvib">Вибрация</string>

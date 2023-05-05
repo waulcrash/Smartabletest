@@ -32,46 +32,92 @@
         android:src="@drawable/etap" />
 
     <LinearLayout
-        android:id="@+id/startLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="80dp"
-        android:layout_marginVertical="630dp"
-        android:layout_centerHorizontal="true"
-        android:padding="10dp"
-        android:orientation="horizontal">
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="500dp"
+        android:orientation="vertical">
 
-        <Button
-            android:id="@+id/button_back"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        <LinearLayout
+            android:id="@+id/startLayout"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/back"
-            android:fontFamily="@font/jet"
-            android:textColor="@color/white"
-            android:layout_marginRight="10dp"
+            android:layout_height="80dp"
+            android:layout_marginVertical="630dp"
+            android:orientation="horizontal"
+            android:padding="10dp">
 
-            android:textColorHint="@color/osnova"
-            android:textSize="18sp"
-            app:cornerRadius="20dp"
-            app:rippleColor="@color/osnova"
-            app:strokeColor="@color/osnova" />
-        <Button
-            android:id="@+id/buttonstart"
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/start"
-            android:fontFamily="@font/jet"
-            android:layout_marginLeft="10dp"
-            android:textColor="@color/white"
+            <Button
+                android:id="@+id/leftlvl"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/jet"
+                android:text="&#60;"
+                android:textColor="@color/white"
 
-            android:textColorHint="@color/osnova"
-            android:textSize="18sp"
-            app:cornerRadius="20dp"
-            app:rippleColor="@color/osnova"
-            app:strokeColor="@color/osnova" />
+                android:textColorHint="@color/osnova"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="@color/osnova"
+                app:strokeColor="@color/osnova" />
+
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/jet"
+                android:text="@string/back"
+                android:textColor="@color/white"
+
+                android:textColorHint="@color/osnova"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="@color/osnova"
+                app:strokeColor="@color/osnova" />
+
+            <Button
+                android:id="@+id/buttonstart"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/jet"
+                android:text="@string/start"
+                android:textColor="@color/white"
+
+                android:textColorHint="@color/osnova"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="@color/osnova"
+                app:strokeColor="@color/osnova" />
+
+
+            <Button
+                android:id="@+id/rightlvl"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:fontFamily="@font/jet"
+                android:text="&#62;"
+                android:textColor="@color/white"
+
+                android:textColorHint="@color/osnova"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                app:rippleColor="@color/osnova"
+                app:strokeColor="@color/osnova" />
+
+
+        </LinearLayout>
 
     </LinearLayout>
 

@@ -1920,4 +1920,364 @@
     <string name="o16_20_2">-4,1</string>
     <string name="o16_20_3">-3,1</string>//
     <string name="o16_20_4">-5,1</string>
+
+    <string name="q17_1">5,4-3,7</string>
+    <string name="o17_1_1">1,7</string>
+    <string name="o17_1_2">2,7</string>
+    <string name="o17_1_3">0,7</string>
+    <string name="o17_1_4">3,7</string> //
+
+    <string name="q17_2">9,3-4,5</string>
+    <string name="o17_2_1">3,8</string>
+    <string name="o17_2_2">5,8</string>  //
+    <string name="o17_2_3">4,8</string>
+    <string name="o17_2_4">9,8</string>
+
+    <string name="q17_3">5,5-1,3</string>
+    <string name="o17_3_1">4,4</string>
+    <string name="o17_3_2">4,2</string>
+    <string name="o17_3_3">3,4</string> //
+    <string name="o17_3_4">3,2</string>
+
+    <string name="q17_4">7,7-2,3</string>
+    <string name="o17_4_1">6,4</string>
+    <string name="o17_4_2">7,4</string> //
+    <string name="o17_4_3">4,4</string>
+    <string name="o17_4_4">5,4</string>
+
+    <string name="q17_5">4,4-9,2</string>
+    <string name="o17_5_1">-4,8</string>//
+    <string name="o17_5_2">-5,8</string>
+    <string name="o17_5_3">-3,8</string>
+    <string name="o17_5_4">-6,8</string>
+
+    <string name="q17_6">5,1-9,2</string>
+    <string name="o17_6_1">-4,1</string> //
+    <string name="o17_6_2">-3,1</string>
+    <string name="o17_6_3">-2,1</string>
+    <string name="o17_6_4">-5,1</string>
+
+    <string name="q17_7">3,3-8,7</string>
+    <string name="o17_7_1">-6,4</string>
+    <string name="o17_7_2">-7,4</string>
+    <string name="o17_7_3">-5,4</string>
+    <string name="o17_7_4">-4,4</string>//
+
+    <string name="q17_8">1,7-2,2</string>
+    <string name="o17_8_1">-1,5</string>
+    <string name="o17_8_2">-2,5</string>
+    <string name="o17_8_3">-0,5</string> //
+    <string name="o17_8_4">-3,5</string>
+
+    <string name="q17_9">8,4-2,7</string>
+    <string name="o17_9_1">5,7</string>
+    <string name="o17_9_2">6,7</string>
+    <string name="o17_9_3">7,7</string>
+    <string name="o17_9_4">4,7</string> //
+
+    <string name="q17_10">8,9-5,2</string>
+    <string name="o17_10_1">4,7</string>
+    <string name="o17_10_2">5,7</string> //
+    <string name="o17_10_3">2,7</string>
+    <string name="o17_10_4">3,7</string>
+
+    <string name="q17_11">7,1-2,2</string>
+    <string name="o17_11_1">5,9</string>//
+    <string name="o17_11_2">6,9</string>
+    <string name="o17_11_3">3,9</string>
+    <string name="o17_11_4">4,9</string>
+
+    <string name="q17_12">4,4-6,6</string>
+    <string name="o17_12_1">-1,2</string>//
+    <string name="o17_12_2">-3,2</string>
+    <string name="o17_12_3">-2,2</string>
+    <string name="o17_12_4">-1,2</string>
+
+    <string name="q17_13">9,5-2,1</string>
+    <string name="o17_13_1">7,4</string>
+    <string name="o17_13_2">8,4</string>
+    <string name="o17_13_3">6,4</string>
+    <string name="o17_13_4">5,4</string>//
+
+    <string name="q17_14">7,2-2,8</string>
+    <string name="o17_14_1">5,4</string>
+    <string name="o17_14_2">4,4</string>
+    <string name="o17_14_3">3,4</string>//
+    <string name="o17_14_4">6,4</string>
+
+    <string name="q17_15">3,7-4,2</string>
+    <string name="o17_15_1">-1,5</string>
+    <string name="o17_15_2">-2,5</string>
+    <string name="o17_15_3">-0,5</string>
+    <string name="o17_15_4">0,5</string>//
+
+    <string name="q17_16">4,6-1,2</string>
+    <string name="o17_16_1">2,4</string>
+    <string name="o17_16_2">1,4</string>
+    <string name="o17_16_3">4,4</string>
+    <string name="o17_16_4">3,4</string>//
+
+    <string name="q17_17">9,1-1</string>
+    <string name="o17_17_1">10</string>//
+    <string name="o17_17_2">10,1</string>
+    <string name="o17_17_3">8,1</string>
+    <string name="o17_17_4">9,8</string>
+
+    <string name="q17_18">13,3-7,3</string>
+    <string name="o17_18_1">7</string>
+    <string name="o17_18_2">6</string>//
+    <string name="o17_18_3">5</string>
+    <string name="o17_18_4">4</string>
+
+    <string name="q17_19">4,6-2,1</string>
+    <string name="o17_19_1">3,5</string>
+    <string name="o17_19_2">1,5</string>//
+    <string name="o17_19_3">2,5</string>
+    <string name="o17_19_4">6,7</string>
+
+    <string name="q17_20">7,4x2</string>
+    <string name="o17_20_1">14,8</string>
+    <string name="o17_20_2">15,8</string>
+    <string name="o17_20_3">15,2</string>//
+    <string name="o17_20_4">15,4</string>
+
+    <string name="q18_1">2,2x3</string>
+    <string name="o18_1_1">6,8</string>
+    <string name="o18_1_2">6,6</string>
+    <string name="o18_1_3">6,4</string>
+    <string name="o18_1_4">6,2</string> //
+
+    <string name="q18_2">7,1x4</string>
+    <string name="o18_2_1">28,4</string>
+    <string name="o18_2_2">27,4</string>  //
+    <string name="o18_2_3">29,4</string>
+    <string name="o18_2_4">26,4</string>
+
+    <string name="q18_3">2,6x2</string>
+    <string name="o18_3_1">4,4</string>
+    <string name="o18_3_2">4,2</string>
+    <string name="o18_3_3">5,4</string> //
+    <string name="o18_3_4">5,2</string>
+
+    <string name="q18_4">4,8x2</string>
+    <string name="o18_4_1">7,6</string>
+    <string name="o18_4_2">8,6</string> //
+    <string name="o18_4_3">9,6</string>
+    <string name="o18_4_4">10,6</string>
+
+    <string name="q18_5">4,7x2</string>
+    <string name="o18_5_1">9,4</string>//
+    <string name="o18_5_2">10,4</string>
+    <string name="o18_5_3">8,4</string>
+    <string name="o18_5_4">11,4</string>
+
+    <string name="q18_6">6,3x2</string>
+    <string name="o18_6_1">12,6</string> //
+    <string name="o18_6_2">11,6</string>
+    <string name="o18_6_3">10,6</string>
+    <string name="o18_6_4">13,6</string>
+
+    <string name="q18_7">9,2x3</string>
+    <string name="o18_7_1">26,6</string>
+    <string name="o18_7_2">28,6</string>
+    <string name="o18_7_3">27,6</string>
+    <string name="o18_7_4">29,6</string>//
+
+    <string name="q18_8">4,4x3</string>
+    <string name="o18_8_1">13,4</string>
+    <string name="o18_8_2">13,2</string>
+    <string name="o18_8_3">14,2</string> //
+    <string name="o18_8_4">14,4</string>
+
+    <string name="q18_9">7,9x2</string>
+    <string name="o18_9_1">16,8</string>
+    <string name="o18_9_2">14,8</string>
+    <string name="o18_9_3">13,8</string>
+    <string name="o18_9_4">15,8</string> //
+
+    <string name="q18_10">5,5x2</string>
+    <string name="o18_10_1">10</string>
+    <string name="o18_10_2">12</string> //
+    <string name="o18_10_3">9</string>
+    <string name="o18_10_4">11</string>
+
+    <string name="q18_11">6,3x3</string>
+    <string name="o18_11_1">18,9</string>//
+    <string name="o18_11_2">16,9</string>
+    <string name="o18_11_3">17,9</string>
+    <string name="o18_11_4">19,9</string>
+
+    <string name="q18_12">5,2x5</string>
+    <string name="o18_12_1">28</string>//
+    <string name="o18_12_2">27</string>
+    <string name="o18_12_3">26</string>
+    <string name="o18_12_4">25</string>
+
+    <string name="q18_13">9,1x2</string>
+    <string name="o18_13_1">19,2</string>
+    <string name="o18_13_2">18,2</string>
+    <string name="o18_13_3">17,2</string>
+    <string name="o18_13_4">20,2</string>//
+
+    <string name="q18_14">8,8x2</string>
+    <string name="o18_14_1">19,6</string>
+    <string name="o18_14_2">18,6</string>
+    <string name="o18_14_3">16,6</string>//
+    <string name="o18_14_4">17,6</string>
+
+    <string name="q18_15">6,6x2</string>
+    <string name="o18_15_1">12,2</string>
+    <string name="o18_15_2">13,2</string>
+    <string name="o18_15_3">14,2</string>
+    <string name="o18_15_4">15,2</string>//
+
+    <string name="q18_16">7,2x3</string>
+    <string name="o18_16_1">21,6</string>
+    <string name="o18_16_2">20,6</string>
+    <string name="o18_16_3">22,6</string>
+    <string name="o18_16_4">23,6</string>//
+
+    <string name="q18_17">3,9x3</string>
+    <string name="o18_17_1">11,7</string>//
+    <string name="o18_17_2">12,7</string>
+    <string name="o18_17_3">13,7</string>
+    <string name="o18_17_4">14,7</string>
+
+    <string name="q18_18">8,8x3</string>
+    <string name="o18_18_1">27,4</string>
+    <string name="o18_18_2">26,4</string>//
+    <string name="o18_18_3">25,4</string>
+    <string name="o18_18_4">24,4</string>
+
+    <string name="q18_19">2,2x3</string>
+    <string name="o18_19_1">2,5</string>
+    <string name="o18_19_2">4,6</string>//
+    <string name="o18_19_3">6,6</string>
+    <string name="o18_19_4">8,8</string>
+
+    <string name="q18_20">8,1:0,9</string>
+    <string name="o18_20_1">0,9</string>
+    <string name="o18_20_2">9</string>
+    <string name="o18_20_3">8</string>//
+    <string name="o18_20_4">0</string>
+
+    <string name="q2_1_1">Когда началась Первая Мировая война?</string>
+    <string name="o2_1_1_1">1910</string>
+    <string name="o2_1_1_2">1909</string>
+    <string name="o2_1_1_3">1903</string>
+    <string name="o2_1_1_4">1918</string> //
+
+    <string name="q2_1_2">Какая последняя династия в Китае? </string>
+    <string name="o2_1_2_1">династия Ен</string>
+    <string name="o2_1_2_2">династия Янь</string>  //
+    <string name="o2_1_2_3">династия Цин</string>
+    <string name="o2_1_2_4">династия Фу</string>
+
+    <string name="q2_1_3">В каком году был убит Джон Ф. Кеннеди?</string>
+    <string name="o2_1_3_1">1963</string>
+    <string name="o2_1_3_2">1953</string>
+    <string name="o2_1_3_3">1967</string> //
+    <string name="o2_1_3_4">1973</string>
+
+    <string name="q2_1_4">Какая старейшая династия до сих пор правит?</string>
+    <string name="o2_1_4_1">Россия</string>
+    <string name="o2_1_4_2">Франция</string> //
+    <string name="o2_1_4_3">Япония</string>
+    <string name="o2_1_4_4">Китай</string>
+
+    <string name="q2_1_5">Кто исследовал Новый Свет? </string>
+    <string name="o2_1_5_1">Жак Луи Давид</string>//
+    <string name="o2_1_5_2">Томас Эдисон</string>
+    <string name="o2_1_5_3">Александр Пушкин</string>
+    <string name="o2_1_5_4">Христофор Колумб</string>
+
+    <string name="q2_1_6">Где находится Вавилон?</string>
+    <string name="o2_1_6_1">Италия</string> //
+    <string name="o2_1_6_2">Франция</string>
+    <string name="o2_1_6_3">Россия</string>
+    <string name="o2_1_6_4">Ирак</string>
+
+    <string name="q2_1_7">Где находится родина Жанны д\'Арк?</string>
+    <string name="o2_1_7_1">Италия</string>
+    <string name="o2_1_7_2">Франция</string>
+    <string name="o2_1_7_3">Англия</string>
+    <string name="o2_1_7_4">США</string>//
+
+    <string name="q2_1_8">Кто был первым человеком, ступившим на Луну?</string>
+    <string name="o2_1_8_1">Томас Эдисон</string>
+    <string name="o2_1_8_2">Том Круз</string>
+    <string name="o2_1_8_3">Карл Маркс</string> //
+    <string name="o2_1_8_4">Нил Армстронг</string>
+
+    <string name="q2_1_9">Во время какого события Корея разделилась на 2 государства?</string>
+    <string name="o2_1_9_1">Первая мировая война</string>
+    <string name="o2_1_9_2">Вторая мировая война</string>
+    <string name="o2_1_9_3">Ледовое побоище</string>
+    <string name="o2_1_9_4">Развал СССР</string> //
+
+    <string name="q2_1_10">Юлий Цезарь родился в каком городе?</string>
+    <string name="o2_1_10_1">Португалия</string>
+    <string name="o2_1_10_2">Италия</string> //
+    <string name="o2_1_10_3">Рим</string>
+    <string name="o2_1_10_4">США</string>
+
+    <string name="q2_2_1">Кто является основателем Коммунистической партии?</string>
+    <string name="o2_2_1_1">Хрущев</string>
+    <string name="o2_2_1_2">Сталин</string>
+    <string name="o2_2_1_3">Ленин</string>
+    <string name="o2_2_1_4">Ельцин</string> //
+
+    <string name="q2_2_2">Кто также известен как основоположник научного социализма? </string>
+    <string name="o2_2_2_1">Александр Эмиль Жан Йерсен</string>
+    <string name="o2_2_2_2">Карл Маркс</string>  //
+    <string name="o2_2_2_3">Эндрю Джонсон</string>
+    <string name="o2_2_2_4">Фидель Кастро</string>
+
+    <string name="q2_2_3">Кто после Ленина был официально лидером Советского Союза?</string>
+    <string name="o2_2_3_1">Ленин</string>
+    <string name="o2_2_3_2">Хрущев</string>
+    <string name="o2_2_3_3">Ельцин</string> //
+    <string name="o2_2_3_4">Сталин</string>
+
+    <string name="q2_2_4">Когда случилась холодная война?</string>
+    <string name="o2_2_4_1">1947-1948</string>
+    <string name="o2_2_4_2">1939-1940</string> //
+    <string name="o2_2_4_3">1948-1949</string>
+    <string name="o2_2_4_4">1950-1951</string>
+
+    <string name="q2_2_5">Когда была снесена Берлинская стена? </string>
+    <string name="o2_2_5_1">1990</string>//
+    <string name="o2_2_5_2">1979</string>
+    <string name="o2_2_5_3">1989</string>
+    <string name="o2_2_5_4">1980</string>
+
+    <string name="q2_2_6">Где Черная смерть оказала наибольшее влияние?</string>
+    <string name="o2_2_6_1">Мексика</string> //
+    <string name="o2_2_6_2">Канада</string>
+    <string name="o2_2_6_3">Япония</string>
+    <string name="o2_2_6_4">Европа</string>
+
+    <string name="q2_2_7">Что считается первой человеческой технологией?</string>
+    <string name="o2_2_7_1">Дубинка</string>
+    <string name="o2_2_7_2">Рисунки</string>
+    <string name="o2_2_7_3">Палка</string>
+    <string name="o2_2_7_4">Огонь</string>//
+
+    <string name="q2_2_8">Куско, Мачу-Пикчу - известное место, расположенное в какой стране?</string>
+    <string name="o2_2_8_1">Россия</string>
+    <string name="o2_2_8_2">Перу</string>
+    <string name="o2_2_8_3">Алжир</string> //
+    <string name="o2_2_8_4">Ангола</string>
+
+    <string name="q2_2_9">В каком океане утонул Титаник?</string>
+    <string name="o2_2_9_1">Атлантический океан</string>
+    <string name="o2_2_9_2">Тихий океан</string>
+    <string name="o2_2_9_3">Индийский океан</string>
+    <string name="o2_2_9_4">Южный океан</string> //
+
+    <string name="q2_2_10">Кто является первым президентом Соединенных Штатов?</string>
+    <string name="o2_2_10_1">Линкольн</string>
+    <string name="o2_2_10_2">Путин</string> //
+    <string name="o2_2_10_3">Вашингтон</string>
+    <string name="o2_2_10_4">Адамс</string>
 </resources>
